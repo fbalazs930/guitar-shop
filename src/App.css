@@ -8,7 +8,6 @@
 }
 
 .nav {
-  grid-area: nav;
   height: 7.4vh;
   display: -ms-grid;
   display: grid;
@@ -38,6 +37,9 @@
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: logo;
+}
+
+.nav .logo img {
   height: 2rem;
 }
 
@@ -214,7 +216,6 @@
   display: -ms-flexbox;
   display: flex;
   gap: 5rem;
-  overflow-x: hidden;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -222,6 +223,14 @@
       -ms-flex-align: start;
           align-items: flex-start;
   min-height: 30vh;
+}
+
+@media only screen and (max-width: 1160px) {
+  .featured .images {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 
 .featured .images .img {

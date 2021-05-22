@@ -1,5 +1,6 @@
 import React from 'react';
 import Featured from './Featured';
+import Footer from './Footer';
 
 export default function Home() {
     return (
@@ -10,6 +11,7 @@ export default function Home() {
                 <i className="fas fa-mouse"></i>
             </div>            
             <Featured className='featured'/>
+            <Footer/>
         </>
     )
 }

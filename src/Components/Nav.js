@@ -7,15 +7,20 @@ export default function Nav() {
 
     return (
         <div className='nav'>
-            <img src="https://images.ctfassets.net/4jcppgetbqrc/6WToDGcMMgACuki24qYAkK/ffb38e3d25308c6bd5fa021b77718ef7/jackson-logo.png" alt="" className="logo" />
+            <div className="logo">
+                <Link to='/'>
+                    <img src="https://images.ctfassets.net/4jcppgetbqrc/6WToDGcMMgACuki24qYAkK/ffb38e3d25308c6bd5fa021b77718ef7/jackson-logo.png" alt="" />
+                </Link>
+            </div>
+            
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <Link className="nav-link">
+                <Link to='/' className="nav-link">
                     Gitárok
                 </Link>           
-                <Link className="nav-link">
+                <Link to='/' className="nav-link">
                     Basszusgitárok
                 </Link>           
-                <Link className="nav-link">
+                <Link to='/' className="nav-link">
                     Tartozékok
                 </Link>           
             </ul>

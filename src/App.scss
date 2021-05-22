@@ -6,7 +6,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 .nav{
-    grid-area: nav;
     height: 7.4vh;
     display: grid;
     grid-template-columns:2rem auto auto 2rem;
@@ -25,7 +24,9 @@
     .logo{
         cursor: pointer;
         grid-area: logo;
-        height: 2rem;
+        img{            
+            height: 2rem;
+        }
     }
     .nav-menu{
         grid-area: links;
@@ -148,17 +149,19 @@
     .images{
         display: flex;
         gap:5rem;
-        overflow-x: hidden;
         justify-content: center;
         align-items: flex-start;
         min-height: 30vh;
+        @media only screen and (max-width:1160px) {
+            justify-content: flex-start;
+        }  
         .img{
             width: 10rem;      
             display: flex;
             flex-direction: column;      
             justify-content: center;
             align-items: center;
-            gap:1rem;     
+            gap:1rem;  
             img{
                 height: 25rem;
             }
