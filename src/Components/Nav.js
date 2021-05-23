@@ -14,7 +14,7 @@ export default function Nav() {
             </div>
             
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <Link to='/' className="nav-link">
+                <Link to='/guitars' className="nav-link">
                     Gitárok
                 </Link>           
                 <Link to='/' className="nav-link">

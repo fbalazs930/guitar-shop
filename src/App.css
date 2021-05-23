@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
 }
 
 .nav {
@@ -151,34 +152,28 @@
   }
 }
 
-.bg {
+.home {
+  color: #e7e7e7;
+}
+
+.home .bg {
+  height: 65vh;
   background-image: url("https://pbs.twimg.com/media/EinRHgcWsAEfXXx.jpg");
   background-position: center;
   background-size: cover;
-  position: fixed;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  top: 7.4vh;
-  left: 0;
-  z-index: -1;
-  height: 100vh;
-  width: 100vw;
 }
 
-.home {
-  min-height: 100vh;
-  color: #e7e7e7;
-  background-color: rgba(0, 0, 0, 0.4321);
-}
-
-.featured {
+.home .featured {
   min-height: 30vh;
-  padding: 1rem;
+  padding: 1rem .5rem;
   color: #000;
   text-transform: uppercase;
   background-color: #f1f1f1;
 }
 
-.featured h2 {
+.home .featured h2 {
   font-weight: 550;
   text-align: center;
   font-size: 1.2rem;
@@ -186,12 +181,12 @@
   overflow: hidden;
 }
 
-.featured h2 span {
+.home .featured h2 span {
   position: relative;
   display: inline-block;
 }
 
-.featured h2 span::before, .featured h2 span::after {
+.home .featured h2 span::before, .home .featured h2 span::after {
   border-bottom: 1px solid #000;
   border-top: 0 solid #000;
   content: "";
@@ -201,17 +196,17 @@
   width: 1000px;
 }
 
-.featured h2 span::before {
+.home .featured h2 span::before {
   right: 100%;
   margin-right: 15px;
 }
 
-.featured h2 span::after {
+.home .featured h2 span::after {
   left: 100%;
   margin-left: 15px;
 }
 
-.featured .images {
+.home .featured .images {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,15 +220,31 @@
   min-height: 30vh;
 }
 
+.home .featured .images::-webkit-scrollbar {
+  width: 0px;
+}
+
+.home .featured .images::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.home .featured .images::-webkit-scrollbar-thumb {
+  background: #9c9c9cc0;
+}
+
+.home .featured .images::-webkit-scrollbar-thumb:hover {
+  background: #9c9c9c;
+}
+
 @media only screen and (max-width: 1160px) {
-  .featured .images {
+  .home .featured .images {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
 }
 
-.featured .images .img {
+.home .featured .images .img {
   width: 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -249,15 +260,222 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
+  margin: 0 0 1rem 0;
 }
 
-.featured .images .img img {
+.home .featured .images .img img {
   height: 25rem;
 }
 
-.featured .images .img p {
+.home .featured .images .img p {
   text-align: center;
   word-wrap: break-word;
   font-size: .75rem;
+}
+
+.guitars {
+  min-height: 100vh;
+}
+
+.guitars .bg {
+  height: 40vh;
+  background-image: url("https://images.ctfassets.net/4jcppgetbqrc/6k2U3nRBIcq8iM6QCAUksa/d120abf8a175da787ce1913e89960a26/CS-Dinky-Coral-Sea.jpg");
+  background-position: 0 -250px;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.guitars .bg::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.guitars .bg::after {
+  content: "Gitáraink";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #f1f1f1;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.guitars .guitars-container {
+  min-height: 100vh;
+  background: #020202;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.guitars .guitars-container .guitar {
+  height: 26rem;
+  width: 26rem;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  background: #1a101f;
+  background: linear-gradient(106deg, #1a101f 0%, #171828 60%, #171727 87%, #171626 97%);
+}
+
+.guitars .guitars-container .guitar:hover .img img {
+  width: 7.5rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.guitars .guitars-container .guitar .img img {
+  width: 15rem;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.guitars .guitars-container .guitar .name {
+  color: #fff;
+  min-height: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  line-height: 20px;
+  font-size: .85rem;
+  background: #020202;
+}
+
+.footer .top {
+  background: #202020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem 0;
+  gap: 2rem;
+}
+
+.footer .top form {
+  position: relative;
+  min-width: 65vw;
+  height: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+  padding: .1rem;
+}
+
+@media only screen and (max-width: 580px) {
+  .footer .top form {
+    min-width: 90vw;
+  }
+}
+
+.footer .top form input {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  color: #7A8AB0;
+  height: 100%;
+  padding: 0 0 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border: none;
+}
+
+.footer .top form input:focus {
+  outline: none;
+}
+
+.footer .top form button {
+  background-color: #000;
+  color: #f1f1f1;
+  font-size: 1.15rem;
+  outline: none;
+  border: none;
+  min-width: 2rem;
+  cursor: pointer;
+  padding: .5rem;
+}
+
+.footer .top img {
+  height: clamp(3rem, 6vw, 15rem);
+}
+
+.footer .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+  gap: 1rem;
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: #939393;
+  background-color: #000;
+  height: 7vh;
+}
+
+.footer .bottom p::after {
+  content: "";
+  position: absolute;
+  height: .75rem;
+  margin: .15rem 0 0 .47rem;
+  width: 1px;
+  background-color: #939393;
+}
+
+.footer .bottom p:last-child::after {
+  all: unset;
 }
 /*# sourceMappingURL=App.css.map */

@@ -5,7 +5,7 @@ export default function Featured() {
     return (
         <div className='featured'>
             <h2><span>Legújabb termékeink</span></h2>
-            <ScrollContainer className='images'>
+            <ScrollContainer className='images' hideScrollbars='false'>
                 <div className="img">
                     <img src="https://www.fmicassets.com/Damroot/JacksonVert/10001/2918809587_jac_ins_frt_01_rr.png" alt="" />
                     <p>JS SERIES DINKY™ ARCH TOP JS32Q DKA HT</p>
