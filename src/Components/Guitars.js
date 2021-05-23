@@ -6,10 +6,9 @@ import Guitar from './Guitar';
 export default function Guitars() {
     return (
         <div className='guitars'>
-            <div className="bg"></div>                       
-                <Router>
-                    <div className="guitars-container">    
-                        {guitarData.map(guitar=>(
+            <div className="bg"></div>  
+            <div className="guitars-container">    
+                    {guitarData.map(guitar=>(
                         <Link to='/guitar' key={guitar.id}>
                             <div className="guitar">
                             <div className="img">
@@ -18,13 +17,10 @@ export default function Guitars() {
                             <div className="name">{guitar.sName}</div>
                             </div> 
                         </Link>  
-                        ))}           
-                    </div>  
-                    <Switch>
-                        <Route path='/' exact component={Guitars}/>
-                        <Route path='/guitar' component={Guitar}/>
-                    </Switch>
-                </Router>         
+                    ))}           
+            </div>  
+                    
+            <Route path='/guitar' component={Guitar}/>             
         </div>        
     )
 }
