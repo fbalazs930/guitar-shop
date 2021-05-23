@@ -318,7 +318,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 2rem;
+}
+
+.guitars .guitars-container a {
+  text-decoration: none;
 }
 
 .guitars .guitars-container .guitar {
@@ -354,7 +360,7 @@
 }
 
 .guitars .guitars-container .guitar .img img {
-  width: 15rem;
+  width: 14rem;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }

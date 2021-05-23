@@ -1,5 +1,6 @@
 const guitarData = [
     {
+        id:'0',
         sName:'MJ Series Dinky™ DKR MAH',
         //lName:'MJ SERIES DINKY™ DKR MAH, EBONY FINGERBOARD, GLOSS BLACK',
         //cost:'$1.999,99',
@@ -7,6 +8,7 @@ const guitarData = [
         //text:'lorem100'
     },
     {
+        id:'1',
         sName:'Pro Series Signature Misha Mansoor Juggernaut ET6',
         //lName:'MJ SERIES DINKY™ DKR MAH, EBONY FINGERBOARD, GLOSS BLACK',
         //cost:'$1.999,99',
@@ -14,6 +16,7 @@ const guitarData = [
         //text:'lorem100'
     },
     {
+        id:'2',
         sName:'MJ Series Dinky™ DKRA',
         //lName:'MJ SERIES DINKY™ DKR MAH, EBONY FINGERBOARD, GLOSS BLACK',
         //cost:'$1.999,99',

@@ -216,7 +216,9 @@
         display: flex; 
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         gap:2rem;   
+        a{text-decoration: none;}
         .guitar{
             height: 26rem;
             width: 26rem;
@@ -237,7 +239,7 @@
             }
             .img{
                 img{
-                    width: 15rem;
+                    width: 14rem;
                     transition: all .3s ease-in-out;
                 }
             }
