@@ -383,6 +383,11 @@
   background: #020202;
 }
 
+.guitar-specs {
+  background-color: red;
+  min-height: 100vh;
+}
+
 .footer .top {
   background: #202020;
   display: -webkit-box;
