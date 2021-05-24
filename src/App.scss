@@ -260,8 +260,22 @@
 .guitar-specs{
     background-color: rgba(0, 0, 0, 0.496);
     min-height: 100vh;
-    h1{
+    .top{
+        background:linear-gradient(to bottom, #000000 5%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
+        min-height: 100vh;
         color:#f1f1f1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h1{
+
+        }
+        h3{
+
+        }
+        img{
+            width: 70rem;
+        }
     }
 }
 .footer{

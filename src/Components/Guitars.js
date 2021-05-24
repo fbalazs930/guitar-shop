@@ -11,8 +11,10 @@ export default function Guitars() {
                     <Link key={guitar.id}
                     to={{
                         pathname:'/guitar',
-                        params:{
-                            name:guitar.lName
+                        state:{
+                            name:guitar.lName,
+                            cost:guitar.cost,
+                            lImgSrc:guitar.lImgSrc
                         }
                     }}
                     >

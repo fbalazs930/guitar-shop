@@ -388,8 +388,24 @@
   min-height: 100vh;
 }
 
-.guitar-specs h1 {
+.guitar-specs .top {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #000000), color-stop(50%, #202020), color-stop(50%, #f1f1f1), to(#f1f1f1));
+  background: linear-gradient(to bottom, #000000 5%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
+  min-height: 100vh;
   color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.guitar-specs .top img {
+  width: 70rem;
 }
 
 .footer .top {
