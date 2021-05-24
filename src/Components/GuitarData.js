@@ -46,6 +46,55 @@ const guitarData = [
         cost:'$2,499.99',
         sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2914323592_jac_ins_frt_01_rr.png',
         lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2914323592_jac_ins_frt_01_rr.png'
+    },
+    {
+        id:'6',
+        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
+        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
+        cost:'$2,499.99',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2914323592_jac_ins_frt_01_rr.png',
+        lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2914323592_jac_ins_frt_01_rr.png'
+    },
+    ,
+    {
+        id:'7',
+        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
+        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
+        cost:'$2,499.99',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2914323592_jac_ins_frt_01_rr.png',
+        lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2914323592_jac_ins_frt_01_rr.png'
+    },
+    {
+        id:'8',
+        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
+        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
+        cost:'$2,499.99',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2914323592_jac_ins_frt_01_rr.png',
+        lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2914323592_jac_ins_frt_01_rr.png'
+    },
+    {
+        id:'9',
+        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
+        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
+        cost:'$2,499.99',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2914323592_jac_ins_frt_01_rr.png',
+        lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2914323592_jac_ins_frt_01_rr.png'
+    },
+    {
+        id:'10',
+        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
+        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
+        cost:'$2,499.99',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2914323592_jac_ins_frt_01_rr.png',
+        lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2914323592_jac_ins_frt_01_rr.png'
+    },
+    {
+        id:'11',
+        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
+        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
+        cost:'$2,499.99',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2914323592_jac_ins_frt_01_rr.png',
+        lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2914323592_jac_ins_frt_01_rr.png'
     }
 ];
 

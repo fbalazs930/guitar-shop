@@ -167,7 +167,7 @@
 
 .home .featured {
   min-height: 30vh;
-  padding: 1rem .5rem;
+  padding: 1rem;
   color: #000;
   text-transform: uppercase;
   background-color: #f1f1f1;
@@ -287,6 +287,8 @@
 .guitars .bg {
   height: 40vh;
   background-image: url("https://images.ctfassets.net/4jcppgetbqrc/6k2U3nRBIcq8iM6QCAUksa/d120abf8a175da787ce1913e89960a26/CS-Dinky-Coral-Sea.jpg");
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
   background-position: 0 -250px;
   background-attachment: fixed;
   position: relative;
@@ -297,11 +299,11 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .guitars .bg::after {
-  content: "Gitáraink";
+  content: "Gitárok";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -309,6 +311,7 @@
           transform: translate(-50%, -50%);
   color: #f1f1f1;
   font-size: 3rem;
+  letter-spacing: 7px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -328,7 +331,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 2rem;
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 
 .guitars .guitars-container a {
