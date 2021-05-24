@@ -401,33 +401,32 @@
   background: linear-gradient(to bottom, #0e0e0e 20%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
   min-height: 100vh;
   color: #f1f1f1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-rows: 25vh 3fr;
+      grid-template-rows: 25vh 3fr;
+      grid-template-areas: "name" "image";
+  padding: 1rem 6rem 10rem 6rem;
+}
+
+.guitar-specs .top div {
   text-align: center;
-  padding: 1.5rem 0 0 0;
-  gap: 1rem;
-  /* h1{
-
-        }
-        h3{
-
-        } */
+  margin: auto;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: name;
+  line-height: 40px;
 }
 
 .guitar-specs .top img {
-  margin: 2.5rem 0 0 0;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: image;
   width: 75rem;
+  margin: auto;
 }
 
 .footer .top {

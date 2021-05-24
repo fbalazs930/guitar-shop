@@ -271,22 +271,24 @@
         background:linear-gradient(to bottom, #0e0e0e 20%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
         min-height: 100vh;
         color:#f1f1f1;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        text-align: center;
-        padding:1.5rem 0 0 0;
-        gap:1rem;
-        /* h1{
-
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 25vh 3fr;
+        grid-template-areas:
+        "name"
+        "image"
+        ;
+        padding: 1rem 6rem 10rem 6rem;
+        div{
+            text-align: center;
+            margin: auto;
+            grid-area: name;
+            line-height:40px;
         }
-        h3{
-
-        } */
         img{
-            margin:2.5rem 0 0 0;
+            grid-area: image;
             width: 75rem;
+            margin:auto;
         }
     }
 }
