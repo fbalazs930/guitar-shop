@@ -14,7 +14,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/guitars' component={Guitars}/>
-          <Route path='/guitar' component={Guitar} name='helo'/>
+          <Route path='/guitar' component={Guitar}/>
         </Switch>        
         <Footer/>
       </Router>
