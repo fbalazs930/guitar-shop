@@ -171,6 +171,13 @@
   color: #000;
   text-transform: uppercase;
   background-color: #f1f1f1;
+  line-height: 17px;
+}
+
+.home .featured a {
+  text-decoration: none;
+  color: #2C2C2C;
+  font-weight: lighter;
 }
 
 .home .featured h2 {
@@ -321,6 +328,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 2rem;
+  padding: 3rem 0;
 }
 
 .guitars .guitars-container a {
@@ -328,7 +336,7 @@
 }
 
 .guitars .guitars-container .guitar {
-  height: 26rem;
+  height: 28rem;
   width: 26rem;
   background-attachment: fixed;
   display: -webkit-box;
@@ -389,8 +397,8 @@
 }
 
 .guitar-specs .top {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #000000), color-stop(50%, #202020), color-stop(50%, #f1f1f1), to(#f1f1f1));
-  background: linear-gradient(to bottom, #000000 5%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #0e0e0e), color-stop(50%, #202020), color-stop(50%, #f1f1f1), to(#f1f1f1));
+  background: linear-gradient(to bottom, #0e0e0e 20%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
   min-height: 100vh;
   color: #f1f1f1;
   display: -webkit-box;
@@ -400,12 +408,26 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 1.5rem 0 0 0;
+  gap: 1rem;
+  /* h1{
+
+        }
+        h3{
+
+        } */
 }
 
 .guitar-specs .top img {
-  width: 70rem;
+  margin: 2.5rem 0 0 0;
+  width: 75rem;
 }
 
 .footer .top {
@@ -501,7 +523,7 @@
   content: "";
   position: absolute;
   height: .75rem;
-  margin: .15rem 0 0 .47rem;
+  margin: .37rem 0 0 .47rem;
   width: 1px;
   background-color: #939393;
 }

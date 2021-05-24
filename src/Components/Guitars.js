@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 import guitarData from './GuitarData';
 
@@ -10,7 +10,7 @@ export default function Guitars() {
                 {guitarData.map(guitar=>(
                     <Link key={guitar.id}
                     to={{
-                        pathname:'/guitar',
+                        pathname:`/guitar/${guitar.sName}`,
                         state:{
                             name:guitar.lName,
                             cost:guitar.cost,
@@ -24,7 +24,7 @@ export default function Guitars() {
                         </div>
                         <div className="name">{guitar.sName}</div>
                         </div> 
-                    </Link>  
+                    </Link>
                 ))}         
             </div>
         </div>  

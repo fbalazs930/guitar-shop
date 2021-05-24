@@ -111,7 +111,13 @@
         padding:1rem .5rem;
         color:#000;
         text-transform: uppercase;
-        background-color: #f1f1f1;        
+        background-color: #f1f1f1;  
+        a{
+            text-decoration: none;
+            color:#2C2C2C;
+            font-weight: lighter;
+        }
+        line-height: 17px;    
         h2{
             font-weight: 550;
             text-align: center;
@@ -219,8 +225,9 @@
         flex-wrap: wrap;
         gap:2rem;   
         a{text-decoration: none;}
+        padding:3rem 0;
         .guitar{
-            height: 26rem;
+            height: 28rem;
             width: 26rem;
             background-attachment: fixed;
             display: flex;
@@ -261,20 +268,25 @@
     background-color: rgba(0, 0, 0, 0.496);
     min-height: 100vh;
     .top{
-        background:linear-gradient(to bottom, #000000 5%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
+        background:linear-gradient(to bottom, #0e0e0e 20%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
         min-height: 100vh;
         color:#f1f1f1;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        h1{
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        padding:1.5rem 0 0 0;
+        gap:1rem;
+        /* h1{
 
         }
         h3{
 
-        }
+        } */
         img{
-            width: 70rem;
+            margin:2.5rem 0 0 0;
+            width: 75rem;
         }
     }
 }
@@ -340,7 +352,7 @@
             content: "";
             position: absolute;
             height: .75rem;
-            margin:.15rem 0 0 .47rem;
+            margin:.37rem 0 0 .47rem;
             width: 1px;
             background-color: #939393;
         }

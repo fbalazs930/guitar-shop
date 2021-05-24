@@ -7,7 +7,7 @@ export default function Guitar(props) {
             <div className="guitar-spec">
                 <div className="top">
                     <h1>{props.location.state.name}</h1>
-                    <h3>{props.location.state.cost}</h3>
+                    <h2>{props.location.state.cost}</h2>
                     <img src={props.location.state.lImgSrc} alt="" />
                 </div>
                 <div className="bottom">

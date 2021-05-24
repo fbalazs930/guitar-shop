@@ -5,7 +5,6 @@ import Home from './Components/Home';
 import Footer from './Components/Footer';
 import Guitars from './Components/Guitars';
 import Guitar from './Components/Guitar';
-import guitarData from './Components/GuitarData';
 
 function App() {
   return (

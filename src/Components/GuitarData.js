@@ -20,7 +20,7 @@ const guitarData = [
         sName:'MJ Series Dinky™ DKRA',
         lName:'MJ SERIES DINKY™ DKRA, EBONY FINGERBOARD, MATTE BLACK ASH',
         cost:'$2.199,99',
-        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2904008203_jac_ins_frt_01_rr.png',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2904009274_jac_ins_frt_01_rr.png',
         lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2904009274_jac_ins_frt_01_rr.png'
     },
     {
@@ -33,6 +33,14 @@ const guitarData = [
     },
     {
         id:'4',
+        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
+        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
+        cost:'$2,499.99',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2914323592_jac_ins_frt_01_rr.png',
+        lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2914323592_jac_ins_frt_01_rr.png'
+    },
+    {
+        id:'5',
         sName:'PRO SERIES SOLOIST™ SL2Q MAH',
         lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
         cost:'$2,499.99',
