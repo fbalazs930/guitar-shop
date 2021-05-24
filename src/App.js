@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Footer from './Components/Footer';
 import Guitars from './Components/Guitars';
 import Guitar from './Components/Guitar';
+import guitarData from './Components/GuitarData';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/guitars' component={Guitars}/>
-          <Route path='/guitar' component={Guitar}/>
+          <Route path='/guitar' component={Guitar} name='helo'/>
         </Switch>        
         <Footer/>
       </Router>

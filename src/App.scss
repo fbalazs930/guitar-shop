@@ -258,8 +258,11 @@
     }
 }
 .guitar-specs{
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.496);
     min-height: 100vh;
+    h1{
+        color:#f1f1f1;
+    }
 }
 .footer{
     .top{
