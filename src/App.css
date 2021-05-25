@@ -409,27 +409,51 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-grid-rows: 25vh 3fr;
-      grid-template-rows: 25vh 3fr;
-      grid-template-areas: "name" "image";
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+      grid-template-areas: "name" "image" "images";
   padding: 1rem 6rem 10rem 6rem;
 }
 
 .guitar-specs .top div {
-  text-align: center;
-  margin: auto;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: name;
+  text-align: center;
+  margin: auto;
   line-height: 40px;
+  background-color: teal;
 }
 
 .guitar-specs .top img {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: image;
-  width: 75rem;
+  width: clamp(15rem, 80vw, 80rem);
   margin: auto;
+  background: yellow;
+}
+
+.guitar-specs .top .guitar-images {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: images;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.guitar-specs .top .guitar-images img {
+  height: 70px;
+  width: auto;
+  background-color: red;
 }
 
 .footer .top {

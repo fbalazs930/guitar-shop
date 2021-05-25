@@ -14,7 +14,8 @@ export default function Guitars() {
                         state:{
                             name:guitar.lName,
                             cost:guitar.cost,
-                            lImgSrc:guitar.lImgSrc
+                            lImgSrc:guitar.lImgSrc,
+                            images:[guitar.images]
                         }
                     }}
                     >

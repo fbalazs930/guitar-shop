@@ -275,22 +275,38 @@
         color:#f1f1f1;
         display: grid;
         justify-content: center;
-        grid-template-rows: 25vh 3fr;
+        grid-template-rows: auto auto auto;
         grid-template-areas:
         "name"
         "image"
+        "images"
         ;
         padding: 1rem 6rem 10rem 6rem;
         div{
+            grid-area: name;
             text-align: center;
             margin: auto;
-            grid-area: name;
             line-height:40px;
+            background-color:teal;
         }
         img{
             grid-area: image;
-            width: 75rem;
+            width: clamp(15rem, 80vw, 80rem);
             margin:auto;
+            background: yellow;
+        }
+        .guitar-images{
+            grid-area: images;
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+            img{
+                height: 70px;
+                width: auto;
+                background-color: red;
+            }
         }
     }
 }
