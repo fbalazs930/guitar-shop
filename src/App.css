@@ -409,51 +409,84 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-grid-rows: auto auto auto;
-      grid-template-rows: auto auto auto;
-      grid-template-areas: "name" "image" "images";
-  padding: 1rem 6rem 10rem 6rem;
+  -ms-grid-rows: .5fr auto auto;
+      grid-template-rows: .5fr auto auto;
+      grid-template-areas: "gName" "gImage" "images";
+  padding: 0 2rem;
 }
 
-.guitar-specs .top div {
+.guitar-specs .top div:first-child {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  grid-area: name;
+  grid-area: gName;
   text-align: center;
-  margin: auto;
-  line-height: 40px;
-  background-color: teal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: clamp(0.6rem, 2vw, 1rem);
 }
 
-.guitar-specs .top img {
+.guitar-specs .top .big-img {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  grid-area: image;
-  width: clamp(15rem, 80vw, 80rem);
-  margin: auto;
-  background: yellow;
+  grid-area: gImage;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: #000;
+}
+
+.guitar-specs .top .big-img img {
+  width: 90%;
 }
 
 .guitar-specs .top .guitar-images {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: images;
-  background-color: green;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   width: 100%;
+  background: #000;
+}
+
+.guitar-specs .top .guitar-images::-webkit-scrollbar {
+  width: 0px;
+}
+
+.guitar-specs .top .guitar-images::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.guitar-specs .top .guitar-images::-webkit-scrollbar-thumb {
+  background: #9c9c9cc0;
+}
+
+.guitar-specs .top .guitar-images::-webkit-scrollbar-thumb:hover {
+  background: #9c9c9c;
 }
 
 .guitar-specs .top .guitar-images img {
-  height: 70px;
+  margin: 0 30px 0 0;
+  height: 6vw;
   width: auto;
-  background-color: red;
 }
 
 .footer .top {

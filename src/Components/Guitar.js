@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollContainer from 'react-indiana-drag-scroll';
 
 export default function Guitar(props) {
     window.scrollTo(0, 0);
@@ -10,12 +11,14 @@ export default function Guitar(props) {
                         <h1>{props.location.state.name}</h1>
                         <h2>{props.location.state.cost}</h2>
                     </div>
-                    <img src={props.location.state.lImgSrc} alt="" />
-                    <div className="guitar-images">
+                    <div className="big-img">                        
+                        <img src={props.location.state.lImgSrc} alt="" />
+                    </div>
+                    <ScrollContainer className="guitar-images" hideScrollbars='false'>
                         {props.location.state.images[0].map(img=>(
                             <img key={img} src={img} alt="" />
                         ))}
-                    </div>
+                    </ScrollContainer>
                 </div>
                 <div className="bottom">
                 </div>

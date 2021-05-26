@@ -1,6 +1,6 @@
 const fGuitarData = [
     {
-        id:'0',
+            id:'0',
         sName:'USA Signature Mick Thomson Soloist™',
         lName:'USA SIGNATURE MICK THOMSON SOLOIST™, EBONY FINGERBOARD, GLOSS BLACK',
         cost:'$3.999,999',
