@@ -7,18 +7,21 @@ export default function Guitar(props) {
         <div className='guitar-specs'>
             <div className="guitar-spec">
                 <div className="top">
-                    <div>
+                    <div className='name-cost'>
                         <h1>{props.location.state.name}</h1>
                         <h2>{props.location.state.cost}</h2>
                     </div>
                     <div className="big-img">                        
                         <img src={props.location.state.lImgSrc} alt="" />
                     </div>
-                    <ScrollContainer className="guitar-images" hideScrollbars='false'>
-                        {props.location.state.images[0].map(img=>(
-                            <img key={img} src={img} alt="" />
-                        ))}
-                    </ScrollContainer>
+                    <div className="guitar-images">
+                    <ScrollContainer className='scrollSoctainer' hideScrollbars='false'>
+                    {props.location.state.images[0].map(img=>(
+                                <img key={img} src={img} alt="" />
+                            ))}
+                        </ScrollContainer>
+                    </div>
+                    
                 </div>
                 <div className="bottom">
                 </div>

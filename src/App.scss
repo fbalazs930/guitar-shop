@@ -273,17 +273,13 @@
         background:linear-gradient(to bottom, #0e0e0e 20%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
         min-height: 100vh;
         color:#f1f1f1;
-        display: grid;
-        justify-content: center;
-        grid-template-rows: .5fr auto auto;
-        grid-template-areas:
-        "gName"
-        "gImage"
-        "images"
-        ;
         padding:0 2rem;
-        div:first-child{
-            grid-area: gName;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:3rem;
+        .name-cost{
             text-align: center;
             display: flex;
             align-items: center;
@@ -292,38 +288,40 @@
             font-size: clamp(.6rem, 2vw, 1rem);
         }
         .big-img{
-            grid-area: gImage;
-            display: grid;
-            place-items: center;
-            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             img{
-                width: 90%;
+                width: 80%;
             }
         }
         .guitar-images{
-            grid-area: images;
-            text-align: center;
             display: flex;
             align-items: center;
-            flex-wrap: nowrap;
-            width: 100%;
-           background: #000;
-            &::-webkit-scrollbar {
+            justify-content: center;
+           .scrollSoctainer{
+               padding:1rem;
+               display: flex;
+               justify-content: flex-start;
+               flex-direction: row;
+               &::-webkit-scrollbar {
                 width: 0px;
-              }
-              &::-webkit-scrollbar-track {
-                background: #f1f1f1; 
-              }
-              &::-webkit-scrollbar-thumb {
-                background: #9c9c9cc0;
-              }
-              &::-webkit-scrollbar-thumb:hover {
-                background: #9c9c9c;
-              }
+                }
+                &::-webkit-scrollbar-track {
+                    background: #f1f1f1; 
+                }
+                &::-webkit-scrollbar-thumb {
+                    background: #9c9c9cc0;
+                }
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #9c9c9c;
+                }
+           }
+            
             img{
                 margin:0 30px 0 0;
                 height: 6vw;
-                width: auto;
+                width: 100%;
             }
         }
     }
