@@ -5,29 +5,19 @@ export default function Guitar(props) {
     window.scrollTo(0, 0);
     const[click,setClick]=useState(false);
     const[src,setSrc]=useState('');
-    const[id,setId]=useState(0);
-    
+    const[id,setId]=useState(0);    
     const updateId = e => {
-        if(e.keyCode===27){
-            setClick(false);
-        }
-        if(e.keyCode===37){
-            if(id-1>=0){
-                setId(id-1)
-            }
-        }
+        if(e.keyCode===27){ setClick(false);}
+        if(e.keyCode===37){if(id-1>=0){setId(id-1)}}
         if(e.keyCode===39){
             if(parseInt(id)+1<=props.location.state.images.length-1){
                 setId(parseInt(id)+1)
             }
         }
     }
-
     useEffect(() => {        
         window.addEventListener('keyup',updateId); 
-        return () => {
-            window.removeEventListener('keyup',updateId);
-        }
+        return () => {window.removeEventListener('keyup',updateId);}
     }, [id])
 
     
@@ -65,16 +55,12 @@ export default function Guitar(props) {
                 <div className="arrows">
                     <i className="fas fa-arrow-alt-circle-left"
                         onClick={()=>{
-                            if(id-1>=0){
-                                setId(id-1)
-                            }
+                            if(id-1>=0){setId(id-1)}
                         }}></i>
                     <p>{id}</p>
                     <i className="fas fa-arrow-alt-circle-right"
                     onClick={()=>{
-                        if(parseInt(id)+1<=props.location.state.images.length-1){
-                            setId(parseInt(id)+1)
-                        }
+                        if(parseInt(id)+1<=props.location.state.images.length-1){setId(parseInt(id)+1)}
                         }}></i>
                 </div>
             </div>

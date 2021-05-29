@@ -487,15 +487,17 @@
 .guitar-specs .full-screen-image {
   background-color: #202020e8;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 100vw;
   height: 100vh;
   z-index: 4;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 13% 74% 13%;
-      grid-template-rows: 13% 74% 13%;
+  -ms-grid-rows: 14% 72% 14%;
+      grid-template-rows: 14% 72% 14%;
 }
 
 .guitar-specs .full-screen-image .exit {
@@ -526,7 +528,13 @@
 }
 
 .guitar-specs .full-screen-image .f-img img {
-  width: 40%;
+  border-radius: 3px;
+  padding: 1rem;
+  background-color: #fff;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 90%;
+  max-height: 500px;
 }
 
 .guitar-specs .full-screen-image .arrows {

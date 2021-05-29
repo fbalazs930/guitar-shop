@@ -16,7 +16,7 @@ export default function Featured() {
                             name:fGuitar.lName,
                             cost:fGuitar.cost,
                             lImgSrc:fGuitar.lImgSrc,
-                            images:[fGuitar.images]
+                            images:fGuitar.images
                         }
                     }} className='img'>
                         <img src={fGuitar.sImgSrc} alt="" />
