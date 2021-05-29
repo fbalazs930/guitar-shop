@@ -44,7 +44,7 @@ export default function Guitar(props) {
                     <div className="big-img">                        
                         <img src={props.location.state.lImgSrc} alt="" />
                     </div>
-                    <ScrollContainer className='scrollSoctainer' hideScrollbars='false'>
+                    <ScrollContainer className='scrollContainer' hideScrollbars='false'>
                         {props.location.state.images.map(img=>(
                             <img onClick={()=>{setClick(true); setSrc(img.src); setId(img.imgId)}} key={img.imgId} src={img.src} alt=""/>
                         ))}
