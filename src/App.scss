@@ -328,8 +328,7 @@
         height: 100vh;
         z-index: 4;
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 1rem;
+        grid-template-rows: 13% 74% 13%;
         .exit{
             display: flex;
             justify-content: flex-end;
@@ -339,8 +338,12 @@
             font-size: 2rem;
         }
         .f-img{
-            width: 60%;
-            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                height: 70%;
+            }
         }
         .arrows{
             color:#f1f1f1;

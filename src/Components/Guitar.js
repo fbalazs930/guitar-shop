@@ -59,7 +59,9 @@ export default function Guitar(props) {
                 <div className="exit">
                     <i onClick={()=>{setClick(false)}} className="fas fa-times-circle"></i>
                 </div>
-                <img className="f-img" src={props.location.state.images[id].src} alt="" />
+                <div className="f-img">
+                  <img src={props.location.state.images[id].src} alt="" />
+                </div>
                 <div className="arrows">
                     <i className="fas fa-arrow-alt-circle-left"
                         onClick={()=>{

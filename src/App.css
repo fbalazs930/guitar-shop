@@ -494,9 +494,8 @@
   z-index: 4;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-  gap: 1rem;
+  -ms-grid-rows: 13% 74% 13%;
+      grid-template-rows: 13% 74% 13%;
 }
 
 .guitar-specs .full-screen-image .exit {
@@ -515,8 +514,19 @@
 }
 
 .guitar-specs .full-screen-image .f-img {
-  width: 60%;
-  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.guitar-specs .full-screen-image .f-img img {
+  height: 70%;
 }
 
 .guitar-specs .full-screen-image .arrows {
