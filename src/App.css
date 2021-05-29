@@ -484,6 +484,55 @@
   width: auto;
 }
 
+.guitar-specs .full-screen-image {
+  background-color: #202020e8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 4;
+  display: none;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.guitar-specs .full-screen-image .exit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1rem 2rem 0 0;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #f1f1f1;
+  font-size: 2rem;
+}
+
+.guitar-specs .full-screen-image .f-img {
+  width: 60%;
+  margin: auto;
+}
+
+.guitar-specs .full-screen-image .arrows {
+  color: #f1f1f1;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
 .footer .top {
   background: #202020;
   display: -webkit-box;

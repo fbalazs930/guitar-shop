@@ -319,6 +319,38 @@
              }
         }
     }
+    .full-screen-image{
+        background-color: #202020e8;
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 4;
+        display: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1rem;
+        .exit{
+            display: flex;
+            justify-content: flex-end;
+            padding:1rem 2rem 0 0;
+            align-items: flex-start;
+            color:#f1f1f1;
+            font-size: 2rem;
+        }
+        .f-img{
+            width: 60%;
+            margin: auto;
+        }
+        .arrows{
+            color:#f1f1f1;
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:2rem;
+        }
+    }
 }
 .footer{
     .top{

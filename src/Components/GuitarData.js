@@ -6,16 +6,56 @@ const guitarData = [
         cost:'$1.999,99',
         sImgSrc:'https://i.postimg.cc/Gm70tycb/2904009203-jac-ins-frt-01-rr.png',
         lImgSrc:'https://i.postimg.cc/x8Yptf0s/2904009203-jac-ins-frt-01-rr.png',
-        images:[            
-            'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png',
-            'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png',
-            'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png',
-            'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png',
-            'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png',
-            'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png',
-            'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+        images:[
+            {
+                imgId:'0',
+                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
+            },
+            {
+                imgId:'1',
+                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
+            },
+            {
+                imgId:'2',
+                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
+            },
+            {
+                imgId:'3',
+                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
+            },
+            {
+                imgId:'4',
+                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
+            },
+            {
+                imgId:'5',
+                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
+            },
+            {
+                imgId:'6',
+                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+            }
+            /* 
+            src:[
+                '',
+                '',
+                '',
+                '',
+                '',
+                '',
+                ''
+            ],
+            imgId:[
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ] */
         ]
-    },
+    }/* ,
     {
         id:'1',
         sName:'PRO SERIES SOLOIST™ SL2P MAH',
@@ -202,7 +242,7 @@ const guitarData = [
             'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png',
             'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
         ]
-    },
+    }, */
 ];
 
 export default guitarData;
