@@ -7,31 +7,31 @@ export default function Guitar(props) {
     const[src,setSrc]=useState('');
     const[id,setId]=useState(0);
     
-    useEffect(() => {
-        window.addEventListener('keyup',(e)=>{
-            if(e.keyCode===27){
-                setClick(false);
-                return window.removeEventListener('keyup',()=>{});
+    const updateId = e => {
+        if(e.keyCode===27){
+            setClick(false);
+        }
+        if(e.keyCode===37){
+            if(id-1>=0){
+                setId(id-1)
             }
-            return window.removeEventListener('keyup',()=>{});
-        }); 
-        window.addEventListener('keyup',(e)=>{
-            if(e.keyCode===37){
-                if(id-1>=0){
-                    setId(id-1)
-                    return window.removeEventListener('keyup',()=>{});
-                }
+        }
+        if(e.keyCode===39){
+            if(parseInt(id)+1<=props.location.state.images.length-1){
+                setId(parseInt(id)+1)
             }
-            if(e.keyCode===39){
-                if(parseInt(id)+1<=props.location.state.images.length-1){
-                    setId(parseInt(id)+1)
-                    return window.removeEventListener('keyup',()=>{});
-                }
-            }
-            return window.removeEventListener('keyup',()=>{});
-        }); 
-        return window.removeEventListener('keyup',()=>{});
+        }
+    }
+
+    useEffect(() => {        
+        window.addEventListener('keyup',updateId); 
+        return () => {
+            window.removeEventListener('keyup',updateId);
+        }
     }, [id])
+
+    
+
     return (
         <div className='guitar-specs'>
             <div className="guitar-spec">
