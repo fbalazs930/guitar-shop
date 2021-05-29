@@ -6,7 +6,7 @@
     font-family: 'Palanquin Dark', sans-serif;
 }
 .nav{
-    height: 7.4vh;
+    min-height: 7.4vh;
     display: grid;
     grid-template-columns:2rem auto auto 2rem;
     grid-template-areas: 
@@ -271,58 +271,52 @@
     min-height: 100vh;
     .top{
         background:linear-gradient(to bottom, #0e0e0e 20%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
-        min-height: 100vh;
+        height: 100vh;
         color:#f1f1f1;
         padding:0 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap:3rem;
+        display: grid;
+        grid-template-rows:  .5fr 1fr 1fr 1fr .5fr;
         .name-cost{
             text-align: center;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            font-size: clamp(.6rem, 2vw, 1rem);
+            font-size: clamp(.45rem, 1.1vw, 2rem);
+            padding:0 0 1rem 0;
         }
         .big-img{
             display: flex;
             justify-content: center;
             align-items: center;
             img{
-                width: 80%;
+                width: 85%;
             }
-        }
-        .guitar-images{
+        }.scrollSoctainer{
+            padding:0 0 2rem 0;
             display: flex;
-            align-items: center;
-            justify-content: center;
-           .scrollSoctainer{
-               padding:1rem;
-               display: flex;
-               justify-content: flex-start;
-               flex-direction: row;
-               &::-webkit-scrollbar {
-                width: 0px;
-                }
-                &::-webkit-scrollbar-track {
-                    background: #f1f1f1; 
-                }
-                &::-webkit-scrollbar-thumb {
-                    background: #9c9c9cc0;
-                }
-                &::-webkit-scrollbar-thumb:hover {
-                    background: #9c9c9c;
-                }
-           }
-            
-            img{
-                margin:0 30px 0 0;
-                height: 6vw;
-                width: 100%;
-            }
+            justify-content: flex-start;
+            align-items: flex-end;
+            width: 90%;
+            gap:1rem;
+            margin: 0 auto;
+            &::-webkit-scrollbar {
+             width: 0px;
+             }
+             &::-webkit-scrollbar-track {
+                 background: #f1f1f1; 
+             }
+             &::-webkit-scrollbar-thumb {
+                 background: #9c9c9cc0;
+             }
+             &::-webkit-scrollbar-thumb:hover {
+                 background: #9c9c9c;
+             }
+             img{
+                 height: 3rem;
+                 margin: 0 auto;
+                 width: auto;
+             }
         }
     }
 }

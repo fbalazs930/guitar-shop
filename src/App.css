@@ -9,7 +9,7 @@
 }
 
 .nav {
-  height: 7.4vh;
+  min-height: 7.4vh;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2rem auto auto 2rem;
@@ -402,23 +402,13 @@
 .guitar-specs .top {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #0e0e0e), color-stop(50%, #202020), color-stop(50%, #f1f1f1), to(#f1f1f1));
   background: linear-gradient(to bottom, #0e0e0e 20%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
-  min-height: 100vh;
+  height: 100vh;
   color: #f1f1f1;
   padding: 0 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: .5fr 1fr 1fr 1fr .5fr;
+      grid-template-rows: .5fr 1fr 1fr 1fr .5fr;
 }
 
 .guitar-specs .top .name-cost {
@@ -436,7 +426,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: clamp(0.6rem, 2vw, 1rem);
+  font-size: clamp(0.45rem, 1.1vw, 2rem);
+  padding: 0 0 1rem 0;
 }
 
 .guitar-specs .top .big-img {
@@ -452,55 +443,45 @@
 }
 
 .guitar-specs .top .big-img img {
-  width: 80%;
+  width: 85%;
 }
 
-.guitar-specs .top .guitar-images {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.guitar-specs .top .guitar-images .scrollSoctainer {
-  padding: 1rem;
+.guitar-specs .top .scrollSoctainer {
+  padding: 0 0 2rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 90%;
+  gap: 1rem;
+  margin: 0 auto;
 }
 
-.guitar-specs .top .guitar-images .scrollSoctainer::-webkit-scrollbar {
+.guitar-specs .top .scrollSoctainer::-webkit-scrollbar {
   width: 0px;
 }
 
-.guitar-specs .top .guitar-images .scrollSoctainer::-webkit-scrollbar-track {
+.guitar-specs .top .scrollSoctainer::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-.guitar-specs .top .guitar-images .scrollSoctainer::-webkit-scrollbar-thumb {
+.guitar-specs .top .scrollSoctainer::-webkit-scrollbar-thumb {
   background: #9c9c9cc0;
 }
 
-.guitar-specs .top .guitar-images .scrollSoctainer::-webkit-scrollbar-thumb:hover {
+.guitar-specs .top .scrollSoctainer::-webkit-scrollbar-thumb:hover {
   background: #9c9c9c;
 }
 
-.guitar-specs .top .guitar-images img {
-  margin: 0 30px 0 0;
-  height: 6vw;
-  width: 100%;
+.guitar-specs .top .scrollSoctainer img {
+  height: 3rem;
+  margin: 0 auto;
+  width: auto;
 }
 
 .footer .top {
