@@ -4,22 +4,33 @@ import ScrollContainer from 'react-indiana-drag-scroll';
 export default function Guitar(props) {
     window.scrollTo(0, 0);
     const[click,setClick]=useState(false);
+    const[src,setSrc]=useState('');
     const[id,setId]=useState(0);
-    window.addEventListener('keyup',(e)=>{
-        if(e.keyCode===27){
-            setClick(false);
-        }
-    });    
-    useEffect(() => {        
+    
+    useEffect(() => {
+        window.addEventListener('keyup',(e)=>{
+            if(e.keyCode===27){
+                setClick(false);
+                return window.removeEventListener('keyup',()=>{});
+            }
+            return window.removeEventListener('keyup',()=>{});
+        }); 
         window.addEventListener('keyup',(e)=>{
             if(e.keyCode===37){
-                setId(id - 1);
+                if(id-1>=0){
+                    setId(id-1)
+                    return window.removeEventListener('keyup',()=>{});
+                }
             }
             if(e.keyCode===39){
-                setId(id + 1);
-            }            
-        });
-        return window.addEventListener('keyup', () => {});
+                if(parseInt(id)+1<=props.location.state.images.length-1){
+                    setId(parseInt(id)+1)
+                    return window.removeEventListener('keyup',()=>{});
+                }
+            }
+            return window.removeEventListener('keyup',()=>{});
+        }); 
+        return window.removeEventListener('keyup',()=>{});
     }, [id])
     return (
         <div className='guitar-specs'>
@@ -35,7 +46,7 @@ export default function Guitar(props) {
                     </div>
                     <ScrollContainer className='scrollSoctainer' hideScrollbars='false'>
                         {props.location.state.images.map(img=>(
-                            <img onClick={()=>{setClick(true); setId(img.imgId)}} key={img.imgId} src={img.src} alt=""/>
+                            <img onClick={()=>{setClick(true); setSrc(img.src); setId(img.imgId)}} key={img.imgId} src={img.src} alt=""/>
                         ))}
                     </ScrollContainer>  
                     <div></div>  
@@ -43,18 +54,30 @@ export default function Guitar(props) {
                 <div className="bottom">
                 </div>
             </div>
+
             <div className="full-screen-image" style={click ? {display:'grid'} : {display:'none'}}>
                 <div className="exit">
-                    <i onClick={(e)=>{setClick(false)}}
-                    className="fas fa-times-circle"></i>
+                    <i onClick={()=>{setClick(false)}} className="fas fa-times-circle"></i>
                 </div>
                 <img className="f-img" src={props.location.state.images[id].src} alt="" />
                 <div className="arrows">
-                    <i className="fas fa-arrow-alt-circle-left"></i>
-                    {id}
-                    <i className="fas fa-arrow-alt-circle-right"></i>
+                    <i className="fas fa-arrow-alt-circle-left"
+                        onClick={()=>{
+                            if(id-1>=0){
+                                setId(id-1)
+                            }
+                        }}></i>
+                    <p>{id}</p>
+                    <i className="fas fa-arrow-alt-circle-right"
+                    onClick={()=>{
+                        if(parseInt(id)+1<=props.location.state.images.length-1){
+                            setId(parseInt(id)+1)
+                        }
+                        }}></i>
                 </div>
             </div>
+            
+            
         </div>
     )
 }
