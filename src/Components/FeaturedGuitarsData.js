@@ -40,38 +40,38 @@ const fGuitarData = [
     {
         id:'1',
         sName:'USA Signature Jeff Loomis Kelly™',
-        lName:'USA SIGNATURE CHRISTIAN ANDREU RHOADS RR, EBONY FINGERBOARD, SATIN BLACK',
+        lName:'USA SIGNATURE JEFF LOOMIS KELLY™, EBONY FINGERBOARD, BLACK',
         cost:'$5.499,99',
         sImgSrc:'https://i.postimg.cc/XNznHtMV/2803031803-gtr-frt-001-rr.png',
         lImgSrc:'https://i.postimg.cc/qvf40nMS/2803031803-gtr-frt-001-rr.png',
         images:[
             {
                 imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
+                src:'https://i.postimg.cc/T2K8Jp7t/2803031803-gtr-back-001-rr.png'
             },
             {
                 imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
+                src:'https://i.postimg.cc/qBSPb4W4/2803031803-gtr-cntbdyleft-001-nr.png'
             },
             {
                 imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
+                src:'https://i.postimg.cc/65ZDFFNR/2803031803-gtr-frtangleleft-001-rr.png'
             },
             {
                 imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
+                src:'https://i.postimg.cc/4xbjxtyx/2803031803-gtr-frtangleright-001-rr.png'
             },
             {
                 imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
+                src:'https://i.postimg.cc/PqX9pxvz/2803031803-gtr-frtbdydtl-001-nr.png'
             },
             {
                 imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
+                src:'https://i.postimg.cc/fb8FxNx4/2803031803-gtr-hdstckbck-001-nr.png'
             },
             {
                 imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+                src:'https://i.postimg.cc/4dn0PS5Y/2803031803-gtr-hdstckfrt-001-nr.png'
             }
         ]
     },
@@ -85,31 +85,35 @@ const fGuitarData = [
         images:[
             {
                 imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
+                src:'https://i.postimg.cc/FF3pvv79/2803366889-gtr-back-001-rl.png'
             },
             {
                 imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
+                src:'https://i.postimg.cc/SN4rNPMc/2803366889-gtr-cntbdyleft-001-nr.png'
             },
             {
                 imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
+                src:'https://i.postimg.cc/65hh7hrg/2803366889-gtr-cntbdyright-001-nr.png'
             },
             {
                 imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
+                src:'https://i.postimg.cc/NjfkRrbM/2803366889-gtr-frtangleleft-001-rr.png'
             },
             {
                 imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
+                src:'https://i.postimg.cc/g2SqskBK/2803366889-gtr-frtangleright-001-rr.png'
             },
             {
                 imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
+                src:'https://i.postimg.cc/6QFVsbK2/2803366889-gtr-frtbdydtl-001-nr.png'
             },
             {
                 imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+                src:'https://i.postimg.cc/FRcyhbFP/2803366889-gtr-hdstckbck-001-nr.png'
+            },
+            {
+                imgId:'7',
+                src:'https://i.postimg.cc/gjWvjwnG/2803366889-gtr-hdstckfrt-001-nr.png'
             }
         ]
     },
@@ -123,31 +127,23 @@ const fGuitarData = [
         images:[
             {
                 imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
+                src:'https://i.postimg.cc/cLw0MrJp/2856805000-gtr-back-001-rl.png'
             },
             {
                 imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
+                src:'https://i.postimg.cc/VNw17mrd/2856805000-gtr-cntbdyleft-001-nr.png'
             },
             {
                 imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
+                src:'https://i.postimg.cc/pTXvHCBv/2856805000-gtr-cntbdyright-001-nr.png'
             },
             {
                 imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
+                src:'https://i.postimg.cc/MTPSKBsQ/2856805000-gtr-extdtl-001-nr.png'
             },
             {
                 imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
-            },
-            {
-                imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
-            },
-            {
-                imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+                src:'https://i.postimg.cc/NFKwy0VP/2856805000-gtr-hdstckbck-001-nr.png'
             }
         ]
     },
