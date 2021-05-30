@@ -165,6 +165,12 @@
   background-repeat: no-repeat;
 }
 
+@media only screen and (orientation: portrait) {
+  .home .bg {
+    background-image: url("https://image.isu.pub/140121234930-e06afffaddb5b5aade1af41135a1136d/jpg/page_1.jpg");
+  }
+}
+
 .home .featured {
   min-height: 30vh;
   padding: 1rem;
@@ -339,8 +345,8 @@
 }
 
 .guitars .guitars-container .guitar {
-  height: 28rem;
-  width: 26rem;
+  height: 26rem;
+  width: 24rem;
   background-attachment: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -362,18 +368,27 @@
   background: linear-gradient(106deg, #1a101f 0%, #171828 60%, #171727 87%, #171626 97%);
 }
 
-.guitars .guitars-container .guitar:hover .img img {
-  width: 7.5rem;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+@media only screen and (orientation: landscape) {
+  .guitars .guitars-container .guitar:hover .img img {
+    width: 7.5rem;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
 }
 
 .guitars .guitars-container .guitar .img img {
   width: 14rem;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+@media only screen and (max-width: 456px) {
+  .guitars .guitars-container .guitar {
+    width: 80vw;
+    height: 55vh;
+  }
 }
 
 .guitars .guitars-container .guitar .name {
@@ -574,13 +589,16 @@
 .footer .top form {
   position: relative;
   min-width: 65vw;
-  height: 7vh;
+  min-height: 7vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #fff;
   padding: .1rem;
 }
@@ -591,20 +609,41 @@
   }
 }
 
+@media only screen and (max-width: 413px) {
+  .footer .top form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: transparent;
+  }
+}
+
 .footer .top form input {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
   color: #7A8AB0;
-  height: 100%;
   padding: 0 0 0 1rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   border: none;
+  font-size: clamp(0.55rem, 2vw, 1rem);
 }
 
 .footer .top form input:focus {
   outline: none;
+}
+
+@media only screen and (max-width: 413px) {
+  .footer .top form input {
+    padding: 1rem;
+    min-width: 80vw;
+    text-align: center;
+  }
 }
 
 .footer .top form button {
@@ -616,6 +655,12 @@
   min-width: 2rem;
   cursor: pointer;
   padding: .5rem;
+}
+
+@media only screen and (max-width: 413px) {
+  .footer .top form button {
+    min-width: 80vw;
+  }
 }
 
 .footer .top img {
@@ -634,7 +679,7 @@
           align-items: center;
   padding: 0 1rem;
   gap: 1rem;
-  font-size: .75rem;
+  font-size: clamp(0.55rem, 0.8vw, 1rem);
   text-transform: uppercase;
   color: #939393;
   background-color: #000;
@@ -645,7 +690,7 @@
   content: "";
   position: absolute;
   height: .75rem;
-  margin: .37rem 0 0 .47rem;
+  margin: .15rem 0 0 .47rem;
   width: 1px;
   background-color: #939393;
 }

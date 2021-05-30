@@ -8,19 +8,19 @@ export default function Nav() {
     return (
         <div className='nav'>
             <div className="logo">
-                <Link to='/'>
+                <Link onClick={()=>{setClick(false)}} to='/'>
                     <img src="https://images.ctfassets.net/4jcppgetbqrc/6WToDGcMMgACuki24qYAkK/ffb38e3d25308c6bd5fa021b77718ef7/jackson-logo.png" alt="" />
                 </Link>
             </div>
             
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <Link to='/guitars' className="nav-link">
+                <Link onClick={()=>{setClick(false)}} to='/guitars' className="nav-link">
                     Gitárok
                 </Link>           
-                <Link to='/' className="nav-link">
+                <Link onClick={()=>{setClick(false)}} to='/' className="nav-link">
                     Basszusgitárok
                 </Link>           
-                <Link to='/' className="nav-link">
+                <Link onClick={()=>{setClick(false)}} to='/' className="nav-link">
                     Tartozékok
                 </Link>           
             </ul>
