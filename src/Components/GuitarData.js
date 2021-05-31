@@ -35,7 +35,8 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'purple',
+        color:'black'
     },
     {
         id:1,
@@ -73,7 +74,7 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'black'
     },
     {
         id:2,
@@ -111,7 +112,7 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'black'
     },
     {
         id:3,
@@ -149,7 +150,7 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'blue'
     },
     {
         id:4,
@@ -187,7 +188,7 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'purple'
     },
     {
         id:5,
@@ -225,7 +226,7 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'purple'
     },,
     {
         id:6,
@@ -263,7 +264,7 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'purple'
     },,
     {
         id:7,
@@ -301,7 +302,7 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'purple'
     },,
     {
         id:8,
@@ -339,7 +340,7 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'purple'
     },,
     {
         id:9,
@@ -377,7 +378,7 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'purple'
     },,
     {
         id:10,
@@ -415,7 +416,7 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'purple'
     },,
     {
         id:11,
@@ -453,7 +454,7 @@ const guitarData = [
                 imgId:'6',
                 src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
             }
-        ]
+        ],color:'purple'
     }
 ];
 

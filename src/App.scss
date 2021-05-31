@@ -22,10 +22,10 @@
         ". logo . menu-icon .";        
     }
     .logo{
-        cursor: pointer;
         grid-area: logo;
         img{            
             height: 2rem;
+            cursor: pointer;
         }
     }
     .nav-menu{
@@ -231,6 +231,7 @@
         gap:2rem;   
         a{text-decoration: none;}
         padding:4rem 0;
+        position: relative;
         .guitar{
             height: 26rem;
             width: 24rem;
@@ -280,7 +281,7 @@
     min-height: 100vh;
     .top{
         background:linear-gradient(to bottom, #0e0e0e 20%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
-        height: 100vh;
+        height: 110vh;
         color:#f1f1f1;
         padding:0 2rem;
         display: grid;
@@ -325,6 +326,7 @@
                  height: 3rem;
                  margin: 0 auto;
                  width: auto;
+                 cursor: pointer;
              }
         }
     }

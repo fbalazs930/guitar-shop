@@ -34,7 +34,6 @@
 }
 
 .nav .logo {
-  cursor: pointer;
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: logo;
@@ -42,6 +41,7 @@
 
 .nav .logo img {
   height: 2rem;
+  cursor: pointer;
 }
 
 .nav .nav-menu {
@@ -338,6 +338,7 @@
       flex-wrap: wrap;
   gap: 2rem;
   padding: 4rem 0;
+  position: relative;
 }
 
 .guitars .guitars-container a {
@@ -417,7 +418,7 @@
 .guitar-specs .top {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #0e0e0e), color-stop(50%, #202020), color-stop(50%, #f1f1f1), to(#f1f1f1));
   background: linear-gradient(to bottom, #0e0e0e 20%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
-  height: 100vh;
+  height: 110vh;
   color: #f1f1f1;
   padding: 0 2rem;
   display: -ms-grid;
@@ -497,6 +498,7 @@
   height: 3rem;
   margin: 0 auto;
   width: auto;
+  cursor: pointer;
 }
 
 .guitar-specs .full-screen-image {
