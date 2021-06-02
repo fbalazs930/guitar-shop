@@ -57,7 +57,6 @@ export default function Guitar(props) {
                         onClick={()=>{
                             if(id-1>=0){setId(id-1)}
                         }}></i>
-                    <p>{id}</p>
                     <i className="fas fa-arrow-alt-circle-right"
                     onClick={()=>{
                         if(parseInt(id)+1<=props.location.state.images.length-1){setId(parseInt(id)+1)}

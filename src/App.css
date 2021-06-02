@@ -532,6 +532,10 @@
   font-size: 2rem;
 }
 
+.guitar-specs .full-screen-image .exit i {
+  cursor: pointer;
+}
+
 .guitar-specs .full-screen-image .f-img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -567,6 +571,10 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 2rem;
+}
+
+.guitar-specs .full-screen-image .arrows i {
+  cursor: pointer;
 }
 
 .footer .top {

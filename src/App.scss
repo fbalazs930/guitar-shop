@@ -348,6 +348,9 @@
             align-items: flex-start;
             color:#f1f1f1;
             font-size: 2rem;
+            i{
+                cursor: pointer;
+            }
         }
         .f-img{
             display: flex;
@@ -369,6 +372,9 @@
             justify-content: center;
             align-items: center;
             gap:2rem;
+            i{
+                cursor: pointer;
+            }
         }
     }
 }
