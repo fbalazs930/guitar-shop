@@ -695,17 +695,4 @@
   background-color: #000;
   height: 7vh;
 }
-
-.footer .bottom p::after {
-  content: "";
-  position: absolute;
-  height: .75rem;
-  margin: .15rem 0 0 .47rem;
-  width: 1px;
-  background-color: #939393;
-}
-
-.footer .bottom p:last-child::after {
-  all: unset;
-}
 /*# sourceMappingURL=App.css.map */

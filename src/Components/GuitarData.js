@@ -3,37 +3,33 @@ const guitarData = [
         id:0,
         sName:'MJ Series Dinky™ DKR MAH',
         lName:'MJ SERIES DINKY™ DKR MAH, EBONY FINGERBOARD, GLOSS BLACK',
-        cost:'$1.999,99',
+        cost:'$1,999.99',
         sImgSrc:'https://i.postimg.cc/Gm70tycb/2904009203-jac-ins-frt-01-rr.png',
         lImgSrc:'https://i.postimg.cc/x8Yptf0s/2904009203-jac-ins-frt-01-rr.png',
         images:[
             {
                 imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009203_jac_ins_bck_01_rl.png'
             },
             {
                 imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009203_jac_ins_cbr_01_nr.png'
             },
             {
                 imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009203_jac_ins_fal_01_rr.png'
             },
             {
                 imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009203_jac_ins_far_01_rr.png'
             },
             {
                 imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009203_jac_ins_hbk_01_nr.png'
             },
             {
                 imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
-            },
-            {
-                imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009203_jac_ins_hft_01_nr.png'
             }
         ]
     },
@@ -47,31 +43,19 @@ const guitarData = [
         images:[
             {
                 imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914252585_jac_ins_bck_01_rl.png'
             },
             {
                 imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914252585_jac_ins_cbr_01_nr.png'
             },
             {
                 imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914252585_jac_ins_hbk_01_n.png'
             },
             {
                 imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
-            },
-            {
-                imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
-            },
-            {
-                imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
-            },
-            {
-                imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914252585_jac_ins_hft_01_nr.png'
             }
         ]
     },
@@ -79,37 +63,37 @@ const guitarData = [
         id:2,
         sName:'MJ Series Dinky™ DKRA',
         lName:'MJ SERIES DINKY™ DKRA, EBONY FINGERBOARD, MATTE BLACK ASH',
-        cost:'$2.199,99',
+        cost:'$2,199.99',
         sImgSrc:'https://i.postimg.cc/25Q4T4VD/2904009274-jac-ins-frt-01-rr.png',
         lImgSrc:'https://i.postimg.cc/44zrtMJL/2904009274-jac-ins-frt-01-rr.png',
         images:[
             {
                 imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009274_jac_ins_bck_01_rl.png'
             },
             {
                 imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009274_jac_ins_cbl_01_nr.png'
             },
             {
                 imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009274_jac_ins_cbr_01_nr.png'
             },
             {
                 imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009274_jac_ins_fal_01_rr.png'
             },
             {
                 imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009274_jac_ins_far_01_rr.png'
             },
             {
                 imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009274_jac_ins_hbk_01_nr.png'
             },
             {
                 imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2904009274_jac_ins_hft_01_nr.png'
             }
         ]
     },
@@ -117,37 +101,37 @@ const guitarData = [
         id:3,
         sName:'PRO SERIES SIGNATURE MISHA MANSOOR JUGGERNAUT ET7',
         lName:'PRO SERIES SIGNATURE MISHA MANSOOR JUGGERNAUT ET7, CARAMELIZED FINGERBOARD, GULF BLUE',
-        cost:'$1.399,99',
+        cost:'$1,399.99',
         sImgSrc:'https://i.postimg.cc/mkDCbJVL/2914017527-jac-ins-frt-01-rr.png',
         lImgSrc:'https://i.postimg.cc/m2KCsd94/2914017527-jac-ins-frt-01-rr.png',
         images:[
             {
                 imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914017527_jac_ins_bck_01_rl.png'
             },
             {
                 imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914017527_jac_ins_cbl_01_nr.png'
             },
             {
                 imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914017527_jac_ins_cbr_01_nr.png'
             },
             {
                 imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914017527_jac_ins_fal_01_rr.png'
             },
             {
                 imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914017527_jac_ins_far_01_rr.png'
             },
             {
                 imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914017527_jac_ins_hbk_01_nr.png'
             },
             {
                 imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914017527_jac_ins_hft_01_nr.png'
             }
         ]
     },
@@ -155,303 +139,79 @@ const guitarData = [
         id:4,
         sName:'PRO SERIES SOLOIST™ SL2Q MAH',
         lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
-        cost:'$2,499.99',
+        cost:'$1,099.99',
         sImgSrc:'https://i.postimg.cc/8CSvFjwn/2914323592-jac-ins-frt-01-rr.png',
         lImgSrc:'https://i.postimg.cc/Tw2W9FzV/2914323592-jac-ins-frt-01-rr.png',
         images:[
             {
                 imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914323592_jac_ins_bck_01_rl.png'
             },
             {
                 imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914323592_jac_ins_cbl_01_nr.png'
             },
             {
                 imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914323592_jac_ins_cbr_01_nr.png'
             },
             {
                 imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914323592_jac_ins_fal_01_rr.png'
             },
             {
                 imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914323592_jac_ins_far_01_rr.png'
             },
             {
                 imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914323592_jac_ins_hbk_01_nr.png'
             },
             {
                 imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914323592_jac_ins_hft_01_nr.png'
             }
         ]
     },
     {
         id:5,
-        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
-        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
-        cost:'$2,499.99',
-        sImgSrc:'https://i.postimg.cc/8CSvFjwn/2914323592-jac-ins-frt-01-rr.png',
-        lImgSrc:'https://i.postimg.cc/Tw2W9FzV/2914323592-jac-ins-frt-01-rr.png',
+        sName:'PRO SERIES DINKY™ DK2M',
+        lName:'PRO SERIES DINKY™ DK2M, MAPLE FINGERBOARD, SNOW WHITE',
+        cost:'$849.99',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2914215576_gtr_frt_001_rr.png',
+        lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2914215576_gtr_frt_001_rr.png',
         images:[
             {
                 imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914215576_gtr_bck_001_rl.png'
             },
             {
                 imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914215576_gtr_cntbdyleft_001_nr.png'
             },
             {
                 imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914215576_gtr_cntbdyright_001_nr.png'
             },
             {
                 imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914215576_gtr_frtangleleft_001_rr.png'
             },
             {
                 imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914215576_gtr_frtangleright_001_rr.png'
             },
             {
                 imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914215576_gtr_frtbdydtl_001_nr.png'
             },
             {
                 imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
-            }
-        ]
-    },,
-    {
-        id:6,
-        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
-        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
-        cost:'$2,499.99',
-        sImgSrc:'https://i.postimg.cc/8CSvFjwn/2914323592-jac-ins-frt-01-rr.png',
-        lImgSrc:'https://i.postimg.cc/Tw2W9FzV/2914323592-jac-ins-frt-01-rr.png',
-        images:[
-            {
-                imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
-            },
-            {
-                imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
-            },
-            {
-                imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
-            },
-            {
-                imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
-            },
-            {
-                imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
-            },
-            {
-                imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914215576_gtr_hdstckbck_001_nr.png'
             },
             {
                 imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
-            }
-        ]
-    },,
-    {
-        id:7,
-        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
-        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
-        cost:'$2,499.99',
-        sImgSrc:'https://i.postimg.cc/8CSvFjwn/2914323592-jac-ins-frt-01-rr.png',
-        lImgSrc:'https://i.postimg.cc/Tw2W9FzV/2914323592-jac-ins-frt-01-rr.png',
-        images:[
-            {
-                imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
-            },
-            {
-                imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
-            },
-            {
-                imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
-            },
-            {
-                imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
-            },
-            {
-                imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
-            },
-            {
-                imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
-            },
-            {
-                imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
-            }
-        ]
-    },,
-    {
-        id:8,
-        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
-        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
-        cost:'$2,499.99',
-        sImgSrc:'https://i.postimg.cc/8CSvFjwn/2914323592-jac-ins-frt-01-rr.png',
-        lImgSrc:'https://i.postimg.cc/Tw2W9FzV/2914323592-jac-ins-frt-01-rr.png',
-        images:[
-            {
-                imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
-            },
-            {
-                imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
-            },
-            {
-                imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
-            },
-            {
-                imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
-            },
-            {
-                imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
-            },
-            {
-                imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
-            },
-            {
-                imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
-            }
-        ]
-    },,
-    {
-        id:9,
-        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
-        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
-        cost:'$2,499.99',
-        sImgSrc:'https://i.postimg.cc/8CSvFjwn/2914323592-jac-ins-frt-01-rr.png',
-        lImgSrc:'https://i.postimg.cc/Tw2W9FzV/2914323592-jac-ins-frt-01-rr.png',
-        images:[
-            {
-                imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
-            },
-            {
-                imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
-            },
-            {
-                imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
-            },
-            {
-                imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
-            },
-            {
-                imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
-            },
-            {
-                imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
-            },
-            {
-                imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
-            }
-        ]
-    },,
-    {
-        id:10,
-        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
-        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
-        cost:'$2,499.99',
-        sImgSrc:'https://i.postimg.cc/8CSvFjwn/2914323592-jac-ins-frt-01-rr.png',
-        lImgSrc:'https://i.postimg.cc/Tw2W9FzV/2914323592-jac-ins-frt-01-rr.png',
-        images:[
-            {
-                imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
-            },
-            {
-                imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
-            },
-            {
-                imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
-            },
-            {
-                imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
-            },
-            {
-                imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
-            },
-            {
-                imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
-            },
-            {
-                imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
-            }
-        ]
-    },,
-    {
-        id:11,
-        sName:'PRO SERIES SOLOIST™ SL2Q MAH',
-        lName:'PRO SERIES SOLOIST™ SL2Q MAH, EBONY FINGERBOARD, TRANSPARENT PURPLE',
-        cost:'$2,499.99',
-        sImgSrc:'https://i.postimg.cc/8CSvFjwn/2914323592-jac-ins-frt-01-rr.png',
-        lImgSrc:'https://i.postimg.cc/Tw2W9FzV/2914323592-jac-ins-frt-01-rr.png',
-        images:[
-            {
-                imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
-            },
-            {
-                imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
-            },
-            {
-                imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
-            },
-            {
-                imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
-            },
-            {
-                imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
-            },
-            {
-                imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
-            },
-            {
-                imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914215576_gtr_hdstckfrt_001_nr.png'
             }
         ]
     }

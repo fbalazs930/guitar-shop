@@ -157,31 +157,35 @@ const fGuitarData = [
         images:[
             {
                 imgId:'0',
-                src:'https://i.postimg.cc/4NVj60s2/2804271803-gtr-cntbdyright-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_bck_01_rl.png'
             },
             {
                 imgId:'1',
-                src:'https://i.postimg.cc/VkFTTbSj/2804271803-gtr-frtangleleft-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_cbl_01_nr.png'
             },
             {
                 imgId:'2',
-                src:'https://i.postimg.cc/bvNMjNb4/2804271803-gtr-frtangleright-001-rr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_cbl_01_nr.png'
             },
             {
                 imgId:'3',
-                src:'https://i.postimg.cc/TwK4p7t9/2804271803-gtr-frtbdydtl-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_cbr_01_nr.png'
             },
             {
                 imgId:'4',
-                src:'https://i.postimg.cc/V62HMqTc/2804271803-gtr-hdstckbck-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_fal_01_rr.png'
             },
             {
                 imgId:'5',
-                src:'https://i.postimg.cc/d3dN97PZ/2804271803-gtr-hdstckfrt-001-nr.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_far_01_rr.png'
             },
             {
                 imgId:'6',
-                src:'https://i.postimg.cc/mkQVH0CQ/2804271803-gtr-back-001-rl.png'
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_hbk_01_nr.png'
+            },
+            {
+                imgId:'7',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_hft_01_nr.png'
             }
         ]
     }
