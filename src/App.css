@@ -442,7 +442,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: clamp(0.45rem, 1.1vw, 2rem);
+  font-size: clamp(0.6rem, 1.1vw, 2rem);
   padding: 0 0 1rem 0;
 }
 

@@ -214,6 +214,124 @@ const guitarData = [
                 src:'https://www.fmicassets.com/Damroot/Zoom/10001/2914215576_gtr_hdstckfrt_001_nr.png'
             }
         ]
+    },
+    {
+        id:6,
+        sName:'PRO SERIES DINKY™ DK2M',
+        lName:'LIMITED EDITION WILDCARD SERIES SOLOIST™ SL2FM, EBONY FINGERBOARD, TRANSPARENT BLACK BURST',
+        cost:'$1,799.99',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2913333516_gtr_frt_01_rr.png',
+        lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2913333516_gtr_frt_01_rr.png',
+        images:[
+            {
+                imgId:'0',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2913333516_gtr_bck_01_rl.png'
+            },
+            {
+                imgId:'1',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2913333516_gtr_cntbdyright_01_nr.png'
+            },
+            {
+                imgId:'2',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2913333516_gtr_frtangleright_01_rr.png'
+            },
+            {
+                imgId:'3',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2913333516_gtr_frtbdydtl_01_nr.png'
+            },
+            {
+                imgId:'4',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2913333516_gtr_hdstckbck_01_nr.png'
+            },
+            {
+                imgId:'5',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2913333516_gtr_hdstckfrt_01_nr.png'
+            }
+        ]
+    },
+    {
+        id:7,
+        sName:'USA SIGNATURE MISHA MANSOOR JUGGERNAUT HT6FM',
+        lName:'USA SIGNATURE MISHA MANSOOR JUGGERNAUT HT6FM, CARAMELIZED FLAME MAPLE FINGERBOARD, SATIN AMBER TIGER EYE',
+        cost:'$4,599.99',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2803366880_gtr_frt_001_rr.png',
+        lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2803366880_gtr_frt_001_rr.png',
+        images:[
+            {
+                imgId:'0',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2803366880_gtr_back_001_rl.png'
+            },
+            {
+                imgId:'1',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2803366880_gtr_cntbdyleft_001_nr.png'
+            },
+            {
+                imgId:'2',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2803366880_gtr_cntbdyright_001_nr.png'
+            },
+            {
+                imgId:'3',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2803366880_gtr_frtangleleft_001_rr.png'
+            },
+            {
+                imgId:'4',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2803366880_gtr_frtangleright_001_rr.png'
+            },
+            {
+                imgId:'5',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2803366880_gtr_frtbdydtl_001_nr.png'
+            },
+            {
+                imgId:'6',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2803366880_gtr_hdstckbck_001_nr.png'
+            },
+            {
+                imgId:'7',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2803366880_gtr_hdstckfrt_001_nr.png'
+            }
+        ]
+    },
+    {
+        id:8,
+        sName:'PRO SERIES DINKY™ DK MODERN ASH HT6',
+        lName:'PRO SERIES DINKY™ DK MODERN ASH HT6, EBONY FINGERBOARD, BAKED RED',
+        cost:'$1,249.99',
+        sImgSrc:'https://www.fmicassets.com/Damroot/JacksonVert/10001/2910001552_gtr_frt_001_rr.png',
+        lImgSrc:'https://www.fmicassets.com/Damroot/xLg/10001/2910001552_gtr_frt_001_rr.png',
+        images:[
+            {
+                imgId:'0',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2910001552_gtr_bck_001_rl.png'
+            },
+            {
+                imgId:'1',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2910001552_gtr_cntbdyleft_001_nr.png'
+            },
+            {
+                imgId:'2',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2910001552_gtr_cntbdyright_001_nr.png'
+            },
+            {
+                imgId:'3',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2910001552_gtr_frtangleleft_001_rr.png'
+            },
+            {
+                imgId:'4',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2910001552_gtr_frtangleright_001_rr.png'
+            },
+            {
+                imgId:'5',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2910001552_gtr_frtbdydtl_001_nr.png'
+            },
+            {
+                imgId:'6',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2910001552_gtr_hdstckbck_001_nr.png'
+            },
+            {
+                imgId:'7',
+                src:'https://www.fmicassets.com/Damroot/Zoom/10001/2910001552_gtr_hdstckfrt_001_nr.png'
+            }
+        ]
     }
 ];
 
