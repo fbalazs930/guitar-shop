@@ -7,14 +7,13 @@ import ScrollContainer from 'react-indiana-drag-scroll';
 export default function Guitar() {
     window.scrollTo(0, 0);
     const [name, setName] = useState('');
-    const [cost, setCost] = useState(1);
+    const [cost, setCost] = useState(0);
     const [lImg, setLImg] = useState('');
     const [images, setImages] = useState([{}]);
     const slug = useParams('slug');
     useEffect(() => {
         const guitar = guitarData.find((item) => item.slug === slug.slug);
         if (guitar) {
-            // Ha a guitar véltozó üres akkor megint lehet 404
             setName(guitar.lName);
             setCost(guitar.cost);
             setLImg(guitar.lImgSrc);
@@ -36,7 +35,6 @@ export default function Guitar() {
         window.addEventListener('keyup', updateId);
         return () => { window.removeEventListener('keyup', updateId); }
     }, [id])
-
     return (
         <div className='guitar-specs'>
             <div className="guitar-spec">
