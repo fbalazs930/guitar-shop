@@ -5,7 +5,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: "Palanquin Dark", sans-serif;
 }
 
 .nav {
@@ -76,8 +76,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: .75rem;
-  color: #8E8E8E;
+  font-size: 0.75rem;
+  color: #8e8e8e;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 800;
@@ -106,8 +106,8 @@
     padding: 100px 0;
     left: -1000px;
     background-color: #202020;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
   .nav .nav-menu .nav-link {
     display: -webkit-box;
@@ -125,8 +125,8 @@
 .nav .active {
   opacity: 1;
   left: 0;
-  -webkit-transition: left .2s ease-in-out;
-  transition: left .2s ease-in-out;
+  -webkit-transition: left 0.2s ease-in-out;
+  transition: left 0.2s ease-in-out;
 }
 
 .nav .menu-icon {
@@ -182,7 +182,7 @@
 
 .home .featured a {
   text-decoration: none;
-  color: #2C2C2C;
+  color: #2c2c2c;
   font-weight: lighter;
 }
 
@@ -283,7 +283,7 @@
 .home .featured .images .img p {
   text-align: center;
   word-wrap: break-word;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .guitars {
@@ -374,15 +374,15 @@
     width: 7.5rem;
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 }
 
 .guitars .guitars-container .guitar .img img {
   width: 14rem;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 456px) {
@@ -406,7 +406,7 @@
           justify-content: center;
   width: 100%;
   line-height: 20px;
-  font-size: .85rem;
+  font-size: 0.85rem;
   background: #020202;
 }
 
@@ -423,8 +423,8 @@
   padding: 0 2rem;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: .5fr 1fr 1fr 1fr .5fr;
-      grid-template-rows: .5fr 1fr 1fr 1fr .5fr;
+  -ms-grid-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
+      grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
 }
 
 .guitar-specs .top .name-cost {
@@ -610,7 +610,7 @@
       -ms-flex-align: center;
           align-items: center;
   background: #fff;
-  padding: .1rem;
+  padding: 0.1rem;
 }
 
 @media only screen and (max-width: 580px) {
@@ -636,7 +636,7 @@
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
-  color: #7A8AB0;
+  color: #7a8ab0;
   padding: 0 0 0 1rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -664,7 +664,7 @@
   border: none;
   min-width: 2rem;
   cursor: pointer;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 @media only screen and (max-width: 413px) {

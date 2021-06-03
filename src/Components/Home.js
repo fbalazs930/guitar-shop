@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div className='home'>
             <div className="bg"></div>
-            <Featured className='featured'/>
+            <Featured className='featured' />
         </div>
     )
 }
