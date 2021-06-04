@@ -59,7 +59,8 @@ export default function Guitar() {
             </div>
             <div className="full-screen-image" style={click ? { display: 'grid' } : { display: 'none' }}>
                 <div className="exit">
-                    <i onClick={() => { setClick(false) }} className="fas fa-times-circle"></i>
+                    <i onClick={() => { setClick(false) }} className="fas fa-times-circle">
+                    </i>
                 </div>
                 <div className="f-img">
                     <img src={images[id].src} alt={slug.slug} />
