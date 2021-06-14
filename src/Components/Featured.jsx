@@ -3,7 +3,7 @@ import guitarData from './GuitarData.jsx';
 import { Link } from 'react-router-dom';
 import ScrollContainer from 'react-indiana-drag-scroll';
 
-export default function Featured() {
+const Featured = () => {
     return (
         <div className='featured'>
             <h2><span>Kiemelt termékeink</span></h2>
@@ -21,3 +21,5 @@ export default function Featured() {
         </div>
     )
 }
+
+export default Featured;

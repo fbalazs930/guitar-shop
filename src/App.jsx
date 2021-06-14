@@ -1,22 +1,27 @@
-import './SCSS/Main.css';
-import Nav from './Components/Nav.jsx';
+import React, { lazy, Suspense } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './Components/Home.jsx';
-import Footer from './Components/Footer.jsx';
-import Guitars from './Components/Guitars.jsx';
-import Guitar from './Components/Guitar.jsx';
+import './SCSS/Main.css';
+const Nav = lazy(() => import('./Components/Nav.jsx'));
+const Home = lazy(() => import('./Components/Home.jsx'));
+const Footer = lazy(() => import('./Components/Footer.jsx'));
+const Guitars = lazy(() => import('./Components/Guitars.jsx'));
+const Guitar = lazy(() => import('./Components/Guitar.jsx'));
 
-function App() {
+const renderLoader = () => <p>Loading</p>;
+
+const App = () => {
   return (
-    <Router>
-      <Nav />
-      <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/guitars' component={Guitars} />
-        <Route path='/guitar/:slug' component={Guitar} />
-      </Switch>
-      <Footer />
-    </Router>
+    <Suspense fallback={renderLoader()}>
+      <Router>
+        <Nav />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/guitars' component={Guitars} />
+          <Route path='/guitar/:slug' component={Guitar} />
+        </Switch>
+        <Footer />
+      </Router>
+    </Suspense>
   );
 }
 

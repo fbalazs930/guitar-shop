@@ -1,11 +1,16 @@
-import React from 'react';
-import Featured from './Featured.jsx';
+import React, { lazy, Suspense } from 'react';
+const Featured = lazy(() => import('./Featured.jsx'));
+const renderLoader = () => <p>Loading</p>;
 
-export default function Home() {
+const Home = () => {
     return (
-        <div className='home'>
-            <div className="bg"></div>
-            <Featured className='featured' />
-        </div>
+        <Suspense fallback={renderLoader()}>
+            <div className='home'>
+                <div className="bg" />
+                <Featured className='featured' />
+            </div>
+        </Suspense>
     )
 }
+
+export default Home;

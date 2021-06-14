@@ -29,11 +29,11 @@
         gap: 2rem;
         position: relative;
         height: 100%;
-        .nav-link {
+        .nav-link{
+            display: flex;
+            flex-direction: row;
             cursor: pointer;
             height: 100%;
-            display: flex;
-            align-items: center;
             font-size: 0.75rem;
             color: #8e8e8e;
             text-decoration: none;
@@ -52,7 +52,7 @@
             position: fixed;
             flex-direction: column;
             justify-content: center;
-            gap: 0;
+            gap: 2rem;
             padding: 100px 0;
             left: -1000px;
             background-color: #202020;

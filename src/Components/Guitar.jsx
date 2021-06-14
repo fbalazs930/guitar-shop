@@ -4,7 +4,7 @@ import guitarData from './GuitarData.jsx';
 import { useParams } from 'react-router-dom';
 import ScrollContainer from 'react-indiana-drag-scroll';
 
-export default function Guitar() {
+const Guitar = () => {
     window.scrollTo(0, 0);
     const [name, setName] = useState('');
     const [cost, setCost] = useState(0);
@@ -79,3 +79,5 @@ export default function Guitar() {
         </div>
     )
 }
+
+export default Guitar;

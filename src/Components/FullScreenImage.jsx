@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function FullScreenImage(props) {
+const FullScreenImage = (props) => {
     const [click, setClick] = useState(props.click);
     return (
         <div>
@@ -16,3 +16,5 @@ export default function FullScreenImage(props) {
         </div>
     )
 }
+
+export default FullScreenImage;

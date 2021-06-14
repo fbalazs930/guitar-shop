@@ -58,14 +58,15 @@
 }
 
 .nav .nav-menu .nav-link {
-  cursor: pointer;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  cursor: pointer;
+  height: 100%;
   font-size: 0.75rem;
   color: #8e8e8e;
   text-decoration: none;
@@ -92,7 +93,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 0;
+    gap: 2rem;
     padding: 100px 0;
     left: -1000px;
     background-color: #202020;

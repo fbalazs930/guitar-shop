@@ -53,11 +53,11 @@
   }
 }
 
-.footer .top form input {
+.footer .top form .input {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
-  color: #7a8ab0;
+  color: #434753;
   padding: 0 0 0 1rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -65,16 +65,32 @@
   font-size: clamp(0.55rem, 2vw, 1rem);
 }
 
-.footer .top form input:focus {
+.footer .top form .input:focus {
   outline: none;
 }
 
 @media only screen and (max-width: 413px) {
-  .footer .top form input {
+  .footer .top form .input {
     padding: 1rem;
     min-width: 80vw;
     text-align: center;
   }
+}
+
+.footer .top form .input::-webkit-input-placeholder {
+  color: #434753;
+}
+
+.footer .top form .input:-ms-input-placeholder {
+  color: #434753;
+}
+
+.footer .top form .input::-ms-input-placeholder {
+  color: #434753;
+}
+
+.footer .top form .input::placeholder {
+  color: #434753;
 }
 
 .footer .top form button {

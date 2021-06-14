@@ -2,7 +2,7 @@ import React from 'react';
 import guitarData from './GuitarData.jsx';
 import { Link } from 'react-router-dom';
 
-export default function Guitars() {
+const Guitars = () => {
     return (
         <div className='guitars'>
             <div className="bg"></div>
@@ -25,3 +25,4 @@ export default function Guitars() {
         </div>
     )
 }
+export default Guitars;
