@@ -1,10 +1,10 @@
-import './App.css';
-import Nav from './Components/Nav';
+import './SCSS/Main.css';
+import Nav from './Components/Nav.jsx';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './Components/Home';
-import Footer from './Components/Footer';
-import Guitars from './Components/Guitars';
-import Guitar from './Components/Guitar';
+import Home from './Components/Home.jsx';
+import Footer from './Components/Footer.jsx';
+import Guitars from './Components/Guitars.jsx';
+import Guitar from './Components/Guitar.jsx';
 
 function App() {
   return (

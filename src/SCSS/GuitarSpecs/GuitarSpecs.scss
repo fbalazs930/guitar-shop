@@ -1,0 +1,103 @@
+.guitar-specs {
+    background-color: rgba(0, 0, 0, 0.496);
+    min-height: 100vh;
+    .top {
+        background: linear-gradient(to bottom, #0e0e0e 20%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
+        height: 110vh;
+        color: #f1f1f1;
+        padding: 0 2rem;
+        display: grid;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
+        .name-cost {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-size: clamp(0.6rem, 1.1vw, 2rem);
+            padding: 0 0 1rem 0;
+        }
+        .big-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 85%;
+            }
+        }
+        .scrollContainer {
+            padding: 0 0 2rem 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            width: 90%;
+            gap: 1rem;
+            margin: 0 auto;
+            &::-webkit-scrollbar {
+                width: 0px;
+            }
+            &::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+            &::-webkit-scrollbar-thumb {
+                background: #9c9c9cc0;
+            }
+            &::-webkit-scrollbar-thumb:hover {
+                background: #9c9c9c;
+            }
+            img {
+                height: 3rem;
+                margin: 0 auto;
+                width: auto;
+                cursor: pointer;
+            }
+        }
+    }
+    .full-screen-image {
+        background-color: #202020e8;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100vw;
+        height: 100vh;
+        z-index: 4;
+        display: grid;
+        grid-template-rows: 14% 72% 14%;
+        .exit {
+            display: flex;
+            justify-content: flex-end;
+            padding: 1rem 2rem 0 0;
+            align-items: flex-start;
+            color: #f1f1f1;
+            font-size: 2rem;
+            i {
+                cursor: pointer;
+            }
+        }
+        .f-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                border-radius: 3px;
+                padding: 1rem;
+                background-color: #fff;
+                object-fit: contain;
+                width: 100%;
+                max-height: 500px;
+            }
+        }
+        .arrows {
+            color: #f1f1f1;
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            i {
+                cursor: pointer;
+            }
+        }
+    }
+}

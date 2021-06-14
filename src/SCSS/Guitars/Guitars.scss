@@ -1,0 +1,92 @@
+.guitars {
+    min-height: 100vh;
+    .bg {
+        height: 40vh;
+        background-image: url("https://images.ctfassets.net/4jcppgetbqrc/6k2U3nRBIcq8iM6QCAUksa/d120abf8a175da787ce1913e89960a26/CS-Dinky-Coral-Sea.jpg");
+        filter: grayscale(100%);
+        background-position: 0 -250px;
+        background-attachment: fixed;
+        position: relative;
+        &::before {
+            content: "";
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.75);
+        }
+        &::after {
+            content: "Gitárok";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #f1f1f1;
+            font-size: 3rem;
+            letter-spacing: 7px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+    .guitars-container {
+        min-height: 100vh;
+        background: #020202;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        a {
+            text-decoration: none;
+        }
+        padding: 4rem 0;
+        position: relative;
+        .guitar {
+            height: 26rem;
+            width: 24rem;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            overflow: hidden;
+            text-align: center;
+            cursor: pointer;
+            background: rgb(26, 16, 31);
+            background: linear-gradient(
+                106deg,
+                rgba(26, 16, 31, 1) 0%,
+                rgba(23, 24, 40, 1) 60%,
+                rgba(23, 23, 39, 1) 87%,
+                rgba(23, 22, 38, 1) 97%
+            );
+            @media only screen and (orientation: landscape) {
+                &:hover .img img {
+                    width: 7.5rem;
+                    transform: rotate(45deg);
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+            .img {
+                img {
+                    width: 14rem;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+            @media only screen and (max-width: 456px) {
+                width: 80vw;
+                height: 55vh;
+            }
+            .name {
+                color: #fff;
+                min-height: 7vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                line-height: 20px;
+                font-size: 0.85rem;
+                background: #020202;
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.home {
+    color: #e7e7e7;
+    .bg {
+        height: 65vh;
+        background-image: url("https://pbs.twimg.com/media/EinRHgcWsAEfXXx.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        @media only screen and (orientation: portrait) {
+            background-image: url("https://image.isu.pub/140121234930-e06afffaddb5b5aade1af41135a1136d/jpg/page_1.jpg");
+        }
+    }
+    .featured {
+        min-height: 30vh;
+        padding: 1rem;
+        color: #000;
+        text-transform: uppercase;
+        background-color: #f1f1f1;
+        a {
+            text-decoration: none;
+            color: #2c2c2c;
+            font-weight: lighter;
+        }
+        line-height: 17px;
+        h2 {
+            font-weight: 550;
+            text-align: center;
+            font-size: 1.2rem;
+            padding: 0 1rem 2rem 1rem;
+            overflow: hidden;
+            span {
+                position: relative;
+                display: inline-block;
+                &::before,
+                &::after {
+                    border-bottom: 1px solid #000;
+                    border-top: 0 solid #000;
+                    content: "";
+                    height: 7px;
+                    position: absolute;
+                    top: 25%;
+                    width: 1000px;
+                }
+                &::before {
+                    right: 100%;
+                    margin-right: 15px;
+                }
+                &::after {
+                    left: 100%;
+                    margin-left: 15px;
+                }
+            }
+        }
+        .images {
+            display: flex;
+            gap: 5rem;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 30vh;
+            &::-webkit-scrollbar {
+                width: 0px;
+            }
+            &::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+            &::-webkit-scrollbar-thumb {
+                background: #9c9c9cc0;
+            }
+            &::-webkit-scrollbar-thumb:hover {
+                background: #9c9c9c;
+            }
+
+            @media only screen and (max-width: 1160px) {
+                justify-content: flex-start;
+            }
+            .img {
+                width: 10rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                margin: 0 0 1rem 0;
+                img {
+                    height: 25rem;
+                }
+                p {
+                    text-align: center;
+                    word-wrap: break-word;
+                    font-size: 0.75rem;
+                }
+            }
+        }
+    }
+}

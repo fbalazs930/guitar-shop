@@ -1,0 +1,167 @@
+.guitar-specs {
+  background-color: rgba(0, 0, 0, 0.496);
+  min-height: 100vh;
+}
+
+.guitar-specs .top {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #0e0e0e), color-stop(50%, #202020), color-stop(50%, #f1f1f1), to(#f1f1f1));
+  background: linear-gradient(to bottom, #0e0e0e 20%, #202020 50%, #f1f1f1 50%, #f1f1f1 100%);
+  height: 110vh;
+  color: #f1f1f1;
+  padding: 0 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
+      grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
+}
+
+.guitar-specs .top .name-cost {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: clamp(0.6rem, 1.1vw, 2rem);
+  padding: 0 0 1rem 0;
+}
+
+.guitar-specs .top .big-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.guitar-specs .top .big-img img {
+  width: 85%;
+}
+
+.guitar-specs .top .scrollContainer {
+  padding: 0 0 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 90%;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.guitar-specs .top .scrollContainer::-webkit-scrollbar {
+  width: 0px;
+}
+
+.guitar-specs .top .scrollContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.guitar-specs .top .scrollContainer::-webkit-scrollbar-thumb {
+  background: #9c9c9cc0;
+}
+
+.guitar-specs .top .scrollContainer::-webkit-scrollbar-thumb:hover {
+  background: #9c9c9c;
+}
+
+.guitar-specs .top .scrollContainer img {
+  height: 3rem;
+  margin: 0 auto;
+  width: auto;
+  cursor: pointer;
+}
+
+.guitar-specs .full-screen-image {
+  background-color: #202020e8;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  z-index: 4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 14% 72% 14%;
+      grid-template-rows: 14% 72% 14%;
+}
+
+.guitar-specs .full-screen-image .exit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1rem 2rem 0 0;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #f1f1f1;
+  font-size: 2rem;
+}
+
+.guitar-specs .full-screen-image .exit i {
+  cursor: pointer;
+}
+
+.guitar-specs .full-screen-image .f-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.guitar-specs .full-screen-image .f-img img {
+  border-radius: 3px;
+  padding: 1rem;
+  background-color: #fff;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  max-height: 500px;
+}
+
+.guitar-specs .full-screen-image .arrows {
+  color: #f1f1f1;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.guitar-specs .full-screen-image .arrows i {
+  cursor: pointer;
+}
+/*# sourceMappingURL=GuitarSpecs.css.map */

@@ -1,5 +1,5 @@
 import React from 'react';
-import Featured from './Featured';
+import Featured from './Featured.jsx';
 
 export default function Home() {
     return (

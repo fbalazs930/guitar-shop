@@ -1,5 +1,5 @@
 import React from 'react';
-import guitarData from './GuitarData';
+import guitarData from './GuitarData.jsx';
 import { Link } from 'react-router-dom';
 
 export default function Guitars() {

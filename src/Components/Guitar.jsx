@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
-import guitarData from './GuitarData';
+import guitarData from './GuitarData.jsx';
 import { useParams } from 'react-router-dom';
 import ScrollContainer from 'react-indiana-drag-scroll';
 
