@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import guitarData from './GuitarData.jsx';
 import { useParams } from 'react-router-dom';
 import ScrollContainer from 'react-indiana-drag-scroll';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Guitar = () => {
     window.scrollTo(0, 0);
@@ -45,11 +46,17 @@ const Guitar = () => {
                         <h2>{cost}</h2>
                     </div>
                     <div className="big-img">
-                        <img src={lImg} alt={slug.slug} />
+                        <LazyLoadImage
+                            alt={slug.slug}
+                            src={lImg}
+                        />
                     </div>
                     <ScrollContainer className='scrollContainer' hideScrollbars='false'>
                         {images.map(img => (
-                            <img onClick={() => { setClick(true); setId(img.imgId) }} key={parseInt(img.imgId)} src={img.src} alt={slug.slug} />
+                            <LazyLoadImage key={parseInt(img.imgId)} onClick={() => { setClick(true); setId(img.imgId) }}
+                                alt={slug.slug}
+                                src={img.src}
+                            />
                         ))}
                     </ScrollContainer>
                     <div></div>

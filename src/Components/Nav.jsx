@@ -8,10 +8,8 @@ const Nav = () => {
     return (
         <div className='nav'>
             <div className="logo">
-                &nbsp;
                 <Link onClick={() => { setClick(false) }} to='/'>
                     <img src="https://images.ctfassets.net/4jcppgetbqrc/6WToDGcMMgACuki24qYAkK/ffb38e3d25308c6bd5fa021b77718ef7/jackson-logo.png" alt="" />
-                    &nbsp;
                 </Link>
             </div>
 

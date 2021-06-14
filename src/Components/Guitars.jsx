@@ -1,6 +1,7 @@
 import React from 'react';
 import guitarData from './GuitarData.jsx';
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Guitars = () => {
     return (
@@ -15,7 +16,10 @@ const Guitars = () => {
                     >
                         <div className="guitar">
                             <div className="img">
-                                <img src={guitar.sImgSrc} alt="" />
+                                <LazyLoadImage
+                                    alt={guitar.slug}
+                                    src={guitar.sImgSrc}
+                                />
                             </div>
                             <div className="name">{guitar.sName}</div>
                         </div>
