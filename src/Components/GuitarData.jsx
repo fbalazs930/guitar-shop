@@ -518,38 +518,115 @@ const guitarData = [
         images: [
             {
                 imgId: 0,
-                src: 'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_bck_01_rl.png'
+                src: 'https://i.postimg.cc/x1hM8BNY/2919904529-jac-ins-bck-01-rl.png'
             },
             {
                 imgId: 1,
-                src: 'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_cbl_01_nr.png'
+                src: 'https://i.postimg.cc/nLm7DTqm/2919904529-jac-ins-cbl-01-nr.png'
             },
             {
                 imgId: 2,
-                src: 'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_cbl_01_nr.png'
+                src: 'https://i.postimg.cc/B6GFcDCV/2919904529-jac-ins-cbr-01-nr.png'
             },
             {
                 imgId: 3,
-                src: 'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_cbr_01_nr.png'
+                src: 'https://i.postimg.cc/ZnwySQzG/2919904529-jac-ins-fal-01-rr.png'
             },
             {
                 imgId: 4,
-                src: 'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_fal_01_rr.png'
+                src: 'https://i.postimg.cc/wx2NL1Rw/2919904529-jac-ins-far-01-rr.png'
             },
             {
                 imgId: 5,
-                src: 'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_far_01_rr.png'
+                src: 'https://i.postimg.cc/GhpyQbkd/2919904529-jac-ins-hbk-01-nr.png'
             },
             {
                 imgId: 6,
-                src: 'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_hbk_01_nr.png'
-            },
-            {
-                imgId: 7,
-                src: 'https://www.fmicassets.com/Damroot/Zoom/10001/2919904529_jac_ins_hft_01_nr.png'
+                src: 'https://i.postimg.cc/RZkJ4f2Z/2919904529-jac-ins-hft-01-nr.png'
             }
         ],
         isFeatured: true
+    },
+    {
+        id: 14,
+        slug: 'mj-series-dinky-dkrp',
+        sName: 'MJ SERIES DINKY™ DKRP',
+        lName: 'MJ SERIES DINKY™ DKRP, EBONY FINGERBOARD, TRANSPARENT BLUE BURST',
+        cost: '$2,199.99',
+        sImgSrc: 'https://i.postimg.cc/B68vKzxc/2904011811-jac-ins-frt-01-rr.png',
+        lImgSrc: 'https://www.fmicassets.com/Damroot/xLg/10001/2904011811_jac_ins_frt_01_rr.png',
+        images: [
+            {
+                imgId: 0,
+                src: 'https://i.postimg.cc/0yg72Y1B/2904011811-jac-ins-bck-01-rl.png'
+            },
+            {
+                imgId: 1,
+                src: 'https://i.postimg.cc/fRxm3VwT/2904011811-jac-ins-cbl-01-nr.png'
+            },
+            {
+                imgId: 2,
+                src: 'https://i.postimg.cc/cJ0YfdH7/2904011811-jac-ins-cbr-01-nr.png'
+            },
+            {
+                imgId: 3,
+                src: 'https://i.postimg.cc/bJvtFL1s/2904011811-jac-ins-fal-01-rr.png'
+            },
+            {
+                imgId: 4,
+                src: 'https://i.postimg.cc/qRZ3fnGQ/2904011811-jac-ins-far-01-rr.png'
+            },
+            {
+                imgId: 5,
+                src: 'https://i.postimg.cc/mZJH8Ykg/2904011811-jac-ins-hbk-01-nr.png'
+            },
+            {
+                imgId: 6,
+                src: 'https://i.postimg.cc/N0s95bJp/2904011811-jac-ins-hft-01-nr.png'
+            }
+        ],
+        isFeatured: false
+    }
+    ,
+    {
+        id: 15,
+        slug: 'js-series-rhoads-mah-js32',
+        sName: 'JS SERIES RHOADS MAH JS32',
+        lName: 'JS SERIES RHOADS MAH JS32, AMARANTH FINGERBOARD, NATURAL',
+        cost: '$399.99',
+        sImgSrc: 'https://i.postimg.cc/rwNzXbGQ/2919804557-jac-ins-frt-01-rr.png',
+        lImgSrc: 'https://i.postimg.cc/3r2kFdys/2919804557-jac-ins-frt-01-rr.png',
+        images: [
+            {
+                imgId: 0,
+                src: 'https://i.postimg.cc/B6QKV3dT/2919804557-jac-ins-bck-01-rl.png'
+            },
+            {
+                imgId: 1,
+                src: 'https://i.postimg.cc/Xqryn8NX/2919804557-jac-ins-cbl-01-nr.png'
+            },
+            {
+                imgId: 2,
+                src: 'https://i.postimg.cc/BbRPbKtp/2919804557-jac-ins-cbr-01-nr.png'
+            },
+            {
+                imgId: 3,
+                src: 'https://i.postimg.cc/fRn0hmGT/2919804557-jac-ins-fal-01-rr.png'
+            },
+            {
+                imgId: 4,
+                src: 'https://i.postimg.cc/htLQ4hn8/2919804557-jac-ins-far-01-rr.png'
+            },
+            {
+                imgId: 5,
+                src: 'https://i.postimg.cc/3WMWYQbb/2919804557-jac-ins-hbk-01-nr.png'
+            },
+            {
+                imgId: 6,
+                src: 'https://i.postimg.cc/kgmFv0Xc/2919804557-jac-ins-hft-01-nr.png'
+            }
+        ],
+        isFeatured: false
     }
 ]
 
