@@ -11,7 +11,7 @@ const Featured = () => {
                 {guitarData.map(guitar => (
                     guitar.isFeatured && <Link key={guitar.id}
                     to={{
-                        pathname: `/guitar/${guitar.slug}`
+                        pathname: `/${guitar.slug}`
                     }} className='img'>
                     <img src={guitar.sImgSrc} alt="" />
                     <p>{guitar.sName}</p>
