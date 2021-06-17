@@ -5,10 +5,14 @@ const Paginator = ({ guitarsPerPage, totalGuitars, paginate, }) => {
     for (let i = 1; i <= Math.ceil(totalGuitars / guitarsPerPage); i++) {
         pageNumbers.push(i);
     }
+
     return (
         <div className='paginator'>
             {pageNumbers.map(number => (
-                <p key={number} className='page-number' onClick={() => { paginate(number); window.scrollTo(0, 333); }}>
+                <p key={number} className='page-number' onClick={(e) => {
+                    paginate(number);
+                    window.scrollTo(0, 333);
+                }}>
                     {number}
                 </p>
             ))}

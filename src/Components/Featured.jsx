@@ -13,7 +13,7 @@ const Featured = () => {
                     to={{
                         pathname: `/${guitar.slug}`
                     }} className='img'>
-                    <img src={guitar.sImgSrc} alt="" />
+                    <img src={guitar.sImgSrc} alt={guitar.slug} />
                     <p>{guitar.sName}</p>
                 </Link>
                 ))}
