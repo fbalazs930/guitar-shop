@@ -466,6 +466,12 @@
   width: 85%;
 }
 
+@media screen and (max-width: 768px) {
+  .guitar-specs .top .big-img img {
+    width: 105%;
+  }
+}
+
 .guitar-specs .top .scrollContainer {
   padding: 0 0 2rem 0;
   display: -webkit-box;
